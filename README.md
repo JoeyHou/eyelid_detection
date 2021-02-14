@@ -5,7 +5,7 @@ eyelid_detection
 Project Organization
 ------------
 
-    ├── 
+    ├──
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
     │   ├── labels         <- Data labels, including the mapping relation from old file names to numberred file names, model xml files, etc.
@@ -17,7 +17,7 @@ Project Organization
     │        ├── left
     │        └── right
     │
-    ├── notebooks          <- Jupyter notebooks. 
+    ├── notebooks          <- Jupyter notebooks.
     │    
     ├── outside_sources    <- Outside sources.
     │   └── haarcascade    <- Pretrained eye detection model from OpenCV
@@ -43,3 +43,11 @@ Project Organization
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
+
+
+-------
+
+### Required data before running:
+- [68 facial landmark predictor](https://drive.google.com/file/d/1qzEiAi0rE3RLsMhgHepOuga0IiBt0Hg0/view?usp=sharing) ~> data/resources/
+- Raw data ~> data/raw/
