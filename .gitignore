@@ -1,3 +1,8 @@
+# Added by Joey
+*/.DS_Store
+.DS_Store
+data/raw/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

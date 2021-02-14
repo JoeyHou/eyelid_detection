@@ -1,0 +1,1815 @@
+<dataset>
+<name>All images</name>
+
+<images>
+
+
+<image file="right_1.jpg"> 
+    <box height="631" left="0" top="0" width="631"> 
+      <part name="1" x="177" y="343" />
+      <part name="2" x="276" y="266" />
+      <part name="3" x="386" y="237" />
+      <part name="4" x="490" y="270" />
+      <part name="5" x="614" y="356" />
+      <part name="6" x="437" y="386" />
+      <part name="7" x="389" y="392" />
+      <part name="8" x="348" y="391" />
+    </box>
+  </image>
+
+  <image file="right_2.jpg"> 
+        <box height="718" left="0" top="0" width="718"> 
+      <part name="1" x="184" y="378" />
+      <part name="2" x="352" y="262" />
+      <part name="3" x="420" y="257" />
+      <part name="4" x="474" y="276" />
+      <part name="5" x="592" y="421" />
+      <part name="6" x="485" y="442" />
+      <part name="7" x="393" y="451" />
+      <part name="8" x="326" y="446" />
+    </box>
+  </image>
+
+  <image file="right_3.jpg"> 
+        <box height="659" left="0" top="0" width="659"> 
+      <part name="1" x="119" y="356" />
+      <part name="2" x="246" y="269" />
+      <part name="3" x="366" y="235" />
+      <part name="4" x="451" y="254" />
+      <part name="5" x="592" y="394" />
+      <part name="6" x="409" y="436" />
+      <part name="7" x="361" y="441" />
+      <part name="8" x="300" y="434" />
+    </box>
+  </image>
+
+  <image file="right_6.jpg"> 
+        <box height="595" left="0" top="0" width="595"> 
+      <part name="1" x="150" y="341" />
+      <part name="2" x="259" y="230" />
+      <part name="3" x="351" y="212" />
+      <part name="4" x="432" y="248" />
+      <part name="5" x="501" y="361" />
+      <part name="6" x="406" y="387" />
+      <part name="7" x="325" y="403" />
+      <part name="8" x="290" y="397" />
+    </box>
+  </image>
+
+  <image file="right_7.jpg"> 
+        <box height="865" left="0" top="0" width="865"> 
+      <part name="1" x="212" y="480" />
+      <part name="2" x="440" y="328" />
+      <part name="3" x="484" y="322" />
+      <part name="4" x="516" y="327" />
+      <part name="5" x="721" y="526" />
+      <part name="6" x="525" y="545" />
+      <part name="7" x="493" y="581" />
+      <part name="8" x="467" y="550" />
+    </box>
+  </image>
+
+  <image file="right_9.jpg"> 
+        <box height="590" left="0" top="0" width="590"> 
+      <part name="1" x="149" y="308" />
+      <part name="2" x="238" y="241" />
+      <part name="3" x="354" y="199" />
+      <part name="4" x="442" y="221" />
+      <part name="5" x="559" y="331" />
+      <part name="6" x="377" y="383" />
+      <part name="7" x="351" y="402" />
+      <part name="8" x="324" y="378" />
+    </box>
+  </image>
+
+  <image file="right_10.jpg"> 
+        <box height="681" left="0" top="0" width="681"> 
+      <part name="1" x="187" y="431" />
+      <part name="2" x="333" y="284" />
+      <part name="3" x="404" y="267" />
+      <part name="4" x="531" y="341" />
+      <part name="5" x="545" y="382" />
+      <part name="6" x="503" y="395" />
+      <part name="7" x="388" y="429" />
+      <part name="8" x="373" y="428" />
+    </box>
+  </image>
+
+  <image file="right_11.jpg"> 
+        <box height="789" left="0" top="0" width="789"> 
+      <part name="1" x="130" y="374" />
+      <part name="2" x="343" y="309" />
+      <part name="3" x="453" y="297" />
+      <part name="4" x="556" y="344" />
+      <part name="5" x="578" y="454" />
+      <part name="6" x="537" y="461" />
+      <part name="7" x="440" y="475" />
+      <part name="8" x="326" y="458" />
+    </box>
+  </image>
+
+  <image file="right_13.jpg"> 
+        <box height="587" left="0" top="0" width="587"> 
+      <part name="1" x="144" y="338" />
+      <part name="2" x="224" y="271" />
+      <part name="3" x="356" y="224" />
+      <part name="4" x="475" y="251" />
+      <part name="5" x="585" y="307" />
+      <part name="6" x="378" y="342" />
+      <part name="7" x="360" y="373" />
+      <part name="8" x="328" y="344" />
+    </box>
+  </image>
+
+  <image file="right_14.jpg"> 
+        <box height="748" left="0" top="0" width="748"> 
+      <part name="1" x="168" y="372" />
+      <part name="2" x="301" y="304" />
+      <part name="3" x="396" y="290" />
+      <part name="4" x="517" y="340" />
+      <part name="5" x="609" y="453" />
+      <part name="6" x="494" y="460" />
+      <part name="7" x="426" y="466" />
+      <part name="8" x="292" y="428" />
+    </box>
+  </image>
+
+  <image file="right_15.jpg"> 
+        <box height="825" left="0" top="0" width="825"> 
+      <part name="1" x="219" y="450" />
+      <part name="2" x="298" y="377" />
+      <part name="3" x="453" y="319" />
+      <part name="4" x="588" y="359" />
+      <part name="5" x="643" y="471" />
+      <part name="6" x="498" y="504" />
+      <part name="7" x="459" y="515" />
+      <part name="8" x="425" y="513" />
+    </box>
+  </image>
+
+  <image file="right_16.jpg"> 
+        <box height="881" left="0" top="0" width="881"> 
+      <part name="1" x="193" y="462" />
+      <part name="2" x="331" y="391" />
+      <part name="3" x="482" y="349" />
+      <part name="4" x="624" y="415" />
+      <part name="5" x="695" y="528" />
+      <part name="6" x="556" y="548" />
+      <part name="7" x="486" y="560" />
+      <part name="8" x="429" y="553" />
+    </box>
+  </image>
+
+  <image file="right_17.jpg"> 
+        <box height="805" left="0" top="0" width="805"> 
+      <part name="1" x="234" y="418" />
+      <part name="2" x="287" y="385" />
+      <part name="3" x="440" y="353" />
+      <part name="4" x="570" y="398" />
+      <part name="5" x="659" y="466" />
+      <part name="6" x="520" y="481" />
+      <part name="7" x="446" y="485" />
+      <part name="8" x="326" y="465" />
+    </box>
+  </image>
+
+  <image file="right_18.jpg"> 
+        <box height="660" left="0" top="0" width="660"> 
+      <part name="1" x="148" y="375" />
+      <part name="2" x="264" y="263" />
+      <part name="3" x="396" y="221" />
+      <part name="4" x="507" y="259" />
+      <part name="5" x="566" y="361" />
+      <part name="6" x="454" y="401" />
+      <part name="7" x="398" y="423" />
+      <part name="8" x="380" y="417" />
+    </box>
+  </image>
+
+  <image file="right_19.jpg"> 
+        <box height="803" left="0" top="0" width="803"> 
+      <part name="1" x="213" y="450" />
+      <part name="2" x="345" y="341" />
+      <part name="3" x="484" y="308" />
+      <part name="4" x="580" y="338" />
+      <part name="5" x="670" y="488" />
+      <part name="6" x="531" y="518" />
+      <part name="7" x="461" y="530" />
+      <part name="8" x="425" y="527" />
+    </box>
+  </image>
+
+  <image file="right_20.jpg"> 
+        <box height="431" left="0" top="0" width="431"> 
+      <part name="1" x="88" y="219" />
+      <part name="2" x="151" y="180" />
+      <part name="3" x="235" y="154" />
+      <part name="4" x="285" y="168" />
+      <part name="5" x="364" y="252" />
+      <part name="6" x="287" y="264" />
+      <part name="7" x="227" y="273" />
+      <part name="8" x="153" y="252" />
+    </box>
+  </image>
+
+  <image file="right_21.jpg"> 
+        <box height="677" left="0" top="0" width="677"> 
+      <part name="1" x="191" y="371" />
+      <part name="2" x="315" y="291" />
+      <part name="3" x="421" y="271" />
+      <part name="4" x="534" y="319" />
+      <part name="5" x="602" y="383" />
+      <part name="6" x="507" y="399" />
+      <part name="7" x="418" y="408" />
+      <part name="8" x="334" y="405" />
+    </box>
+  </image>
+
+  <image file="right_22.jpg"> 
+        <box height="593" left="0" top="0" width="593"> 
+      <part name="1" x="117" y="318" />
+      <part name="2" x="237" y="236" />
+      <part name="3" x="346" y="217" />
+      <part name="4" x="429" y="253" />
+      <part name="5" x="485" y="375" />
+      <part name="6" x="402" y="390" />
+      <part name="7" x="324" y="396" />
+      <part name="8" x="245" y="386" />
+    </box>
+  </image>
+
+  <image file="right_23.jpg"> 
+        <box height="656" left="0" top="0" width="656"> 
+      <part name="1" x="180" y="354" />
+      <part name="2" x="284" y="283" />
+      <part name="3" x="396" y="256" />
+      <part name="4" x="493" y="295" />
+      <part name="5" x="554" y="395" />
+      <part name="6" x="414" y="405" />
+      <part name="7" x="393" y="423" />
+      <part name="8" x="376" y="408" />
+    </box>
+  </image>
+
+  <image file="right_24.jpg"> 
+        <box height="751" left="0" top="0" width="751"> 
+      <part name="1" x="230" y="433" />
+      <part name="2" x="300" y="379" />
+      <part name="3" x="464" y="326" />
+      <part name="4" x="538" y="340" />
+      <part name="5" x="616" y="402" />
+      <part name="6" x="490" y="440" />
+      <part name="7" x="407" y="458" />
+      <part name="8" x="385" y="455" />
+    </box>
+  </image>
+
+  <image file="right_25.jpg"> 
+        <box height="858" left="0" top="0" width="858"> 
+      <part name="1" x="274" y="437" />
+      <part name="2" x="331" y="397" />
+      <part name="3" x="457" y="357" />
+      <part name="4" x="560" y="384" />
+      <part name="5" x="623" y="431" />
+      <part name="6" x="551" y="451" />
+      <part name="7" x="447" y="458" />
+      <part name="8" x="347" y="451" />
+    </box>
+  </image>
+
+  <image file="right_26.jpg"> 
+        <box height="584" left="0" top="0" width="584"> 
+      <part name="1" x="146" y="310" />
+      <part name="2" x="267" y="220" />
+      <part name="3" x="331" y="217" />
+      <part name="4" x="396" y="233" />
+      <part name="5" x="487" y="322" />
+      <part name="6" x="391" y="376" />
+      <part name="7" x="312" y="395" />
+      <part name="8" x="294" y="391" />
+    </box>
+  </image>
+
+  <image file="right_27.jpg"> 
+        <box height="927" left="0" top="0" width="927"> 
+      <part name="1" x="318" y="514" />
+      <part name="2" x="453" y="409" />
+      <part name="3" x="576" y="378" />
+      <part name="4" x="716" y="411" />
+      <part name="5" x="776" y="485" />
+      <part name="6" x="639" y="529" />
+      <part name="7" x="592" y="538" />
+      <part name="8" x="566" y="537" />
+    </box>
+  </image>
+
+  <image file="right_28.jpg"> 
+        <box height="602" left="0" top="0" width="602"> 
+      <part name="1" x="170" y="350" />
+      <part name="2" x="253" y="292" />
+      <part name="3" x="380" y="248" />
+      <part name="4" x="455" y="279" />
+      <part name="5" x="516" y="347" />
+      <part name="6" x="448" y="362" />
+      <part name="7" x="320" y="383" />
+      <part name="8" x="283" y="379" />
+    </box>
+  </image>
+
+  <image file="right_31.jpg"> 
+        <box height="820" left="0" top="0" width="820"> 
+      <part name="1" x="191" y="380" />
+      <part name="2" x="337" y="308" />
+      <part name="3" x="489" y="291" />
+      <part name="4" x="612" y="304" />
+      <part name="5" x="749" y="385" />
+      <part name="6" x="571" y="456" />
+      <part name="7" x="458" y="487" />
+      <part name="8" x="421" y="478" />
+    </box>
+  </image>
+
+  <image file="right_32.jpg"> 
+        <box height="772" left="0" top="0" width="772"> 
+      <part name="1" x="218" y="449" />
+      <part name="2" x="311" y="330" />
+      <part name="3" x="444" y="284" />
+      <part name="4" x="555" y="320" />
+      <part name="5" x="707" y="405" />
+      <part name="6" x="503" y="470" />
+      <part name="7" x="422" y="489" />
+      <part name="8" x="389" y="485" />
+    </box>
+  </image>
+
+  <image file="right_33.jpg"> 
+        <box height="491" left="0" top="0" width="491"> 
+      <part name="1" x="132" y="273" />
+      <part name="2" x="203" y="218" />
+      <part name="3" x="302" y="188" />
+      <part name="4" x="389" y="223" />
+      <part name="5" x="464" y="269" />
+      <part name="6" x="368" y="285" />
+      <part name="7" x="296" y="288" />
+      <part name="8" x="234" y="289" />
+    </box>
+  </image>
+
+  <image file="right_34.jpg"> 
+        <box height="744" left="0" top="0" width="744"> 
+      <part name="1" x="159" y="432" />
+      <part name="2" x="267" y="330" />
+      <part name="3" x="394" y="281" />
+      <part name="4" x="574" y="343" />
+      <part name="5" x="673" y="408" />
+      <part name="6" x="534" y="447" />
+      <part name="7" x="379" y="475" />
+      <part name="8" x="345" y="474" />
+    </box>
+  </image>
+
+  <image file="right_36.jpg"> 
+        <box height="1242" left="0" top="0" width="1242"> 
+      <part name="1" x="523" y="567" />
+      <part name="2" x="597" y="541" />
+      <part name="3" x="756" y="492" />
+      <part name="4" x="892" y="516" />
+      <part name="5" x="977" y="564" />
+      <part name="6" x="850" y="599" />
+      <part name="7" x="730" y="613" />
+      <part name="8" x="646" y="607" />
+    </box>
+  </image>
+
+  <image file="right_37.jpg"> 
+        <box height="495" left="0" top="0" width="495"> 
+      <part name="1" x="131" y="259" />
+      <part name="2" x="187" y="221" />
+      <part name="3" x="295" y="180" />
+      <part name="4" x="396" y="223" />
+      <part name="5" x="454" y="283" />
+      <part name="6" x="371" y="295" />
+      <part name="7" x="286" y="306" />
+      <part name="8" x="199" y="286" />
+    </box>
+  </image>
+
+  <image file="right_38.jpg"> 
+        <box height="860" left="0" top="0" width="860"> 
+      <part name="1" x="312" y="432" />
+      <part name="2" x="365" y="384" />
+      <part name="3" x="513" y="315" />
+      <part name="4" x="608" y="353" />
+      <part name="5" x="665" y="412" />
+      <part name="6" x="582" y="436" />
+      <part name="7" x="457" y="471" />
+      <part name="8" x="415" y="463" />
+    </box>
+  </image>
+
+  <image file="right_39.jpg"> 
+        <box height="546" left="0" top="0" width="546"> 
+      <part name="1" x="130" y="299" />
+      <part name="2" x="204" y="242" />
+      <part name="3" x="299" y="218" />
+      <part name="4" x="371" y="236" />
+      <part name="5" x="440" y="311" />
+      <part name="6" x="338" y="334" />
+      <part name="7" x="289" y="343" />
+      <part name="8" x="252" y="337" />
+    </box>
+  </image>
+
+  <image file="right_41.jpg"> 
+        <box height="1378" left="0" top="0" width="1378"> 
+      <part name="1" x="465" y="699" />
+      <part name="2" x="556" y="610" />
+      <part name="3" x="647" y="581" />
+      <part name="4" x="832" y="622" />
+      <part name="5" x="929" y="670" />
+      <part name="6" x="802" y="716" />
+      <part name="7" x="637" y="749" />
+      <part name="8" x="611" y="744" />
+    </box>
+  </image>
+
+  <image file="right_43.jpg"> 
+        <box height="681" left="0" top="0" width="681"> 
+      <part name="1" x="154" y="386" />
+      <part name="2" x="304" y="252" />
+      <part name="3" x="379" y="235" />
+      <part name="4" x="463" y="248" />
+      <part name="5" x="570" y="382" />
+      <part name="6" x="469" y="399" />
+      <part name="7" x="389" y="435" />
+      <part name="8" x="342" y="428" />
+    </box>
+  </image>
+
+  <image file="right_44.jpg"> 
+        <box height="805" left="0" top="0" width="805"> 
+      <part name="1" x="177" y="446" />
+      <part name="2" x="322" y="331" />
+      <part name="3" x="442" y="289" />
+      <part name="4" x="552" y="300" />
+      <part name="5" x="688" y="454" />
+      <part name="6" x="536" y="507" />
+      <part name="7" x="457" y="532" />
+      <part name="8" x="425" y="530" />
+    </box>
+  </image>
+
+  <image file="right_45.jpg"> 
+        <box height="639" left="0" top="0" width="639"> 
+      <part name="1" x="145" y="358" />
+      <part name="2" x="260" y="275" />
+      <part name="3" x="349" y="251" />
+      <part name="4" x="438" y="281" />
+      <part name="5" x="517" y="337" />
+      <part name="6" x="406" y="364" />
+      <part name="7" x="324" y="380" />
+      <part name="8" x="298" y="377" />
+    </box>
+  </image>
+
+  <image file="right_46.jpg"> 
+        <box height="733" left="0" top="0" width="733"> 
+      <part name="1" x="205" y="363" />
+      <part name="2" x="300" y="316" />
+      <part name="3" x="412" y="284" />
+      <part name="4" x="528" y="348" />
+      <part name="5" x="599" y="417" />
+      <part name="6" x="456" y="425" />
+      <part name="7" x="412" y="427" />
+      <part name="8" x="365" y="417" />
+    </box>
+  </image>
+
+  <image file="right_47.jpg"> 
+        <box height="655" left="0" top="0" width="655"> 
+      <part name="1" x="196" y="363" />
+      <part name="2" x="274" y="309" />
+      <part name="3" x="385" y="280" />
+      <part name="4" x="479" y="304" />
+      <part name="5" x="572" y="376" />
+      <part name="6" x="475" y="408" />
+      <part name="7" x="380" y="419" />
+      <part name="8" x="292" y="409" />
+    </box>
+  </image>
+
+  <image file="right_48.jpg"> 
+        <box height="890" left="0" top="0" width="890"> 
+      <part name="1" x="231" y="454" />
+      <part name="2" x="338" y="368" />
+      <part name="3" x="495" y="327" />
+      <part name="4" x="638" y="391" />
+      <part name="5" x="708" y="480" />
+      <part name="6" x="576" y="507" />
+      <part name="7" x="481" y="525" />
+      <part name="8" x="434" y="518" />
+    </box>
+  </image>
+
+  <image file="right_49.jpg"> 
+        <box height="541" left="0" top="0" width="541"> 
+      <part name="1" x="127" y="303" />
+      <part name="2" x="248" y="201" />
+      <part name="3" x="363" y="172" />
+      <part name="4" x="452" y="197" />
+      <part name="5" x="537" y="325" />
+      <part name="6" x="419" y="365" />
+      <part name="7" x="347" y="383" />
+      <part name="8" x="312" y="378" />
+    </box>
+  </image>
+
+  <image file="right_51.jpg"> 
+        <box height="1227" left="0" top="0" width="1227"> 
+      <part name="1" x="387" y="632" />
+      <part name="2" x="465" y="577" />
+      <part name="3" x="649" y="517" />
+      <part name="4" x="804" y="562" />
+      <part name="5" x="889" y="631" />
+      <part name="6" x="776" y="660" />
+      <part name="7" x="637" y="683" />
+      <part name="8" x="506" y="671" />
+    </box>
+  </image>
+
+  <image file="right_53.jpg"> 
+        <box height="830" left="0" top="0" width="830"> 
+      <part name="1" x="223" y="434" />
+      <part name="2" x="367" y="331" />
+      <part name="3" x="462" y="315" />
+      <part name="4" x="542" y="335" />
+      <part name="5" x="690" y="446" />
+      <part name="6" x="542" y="487" />
+      <part name="7" x="458" y="500" />
+      <part name="8" x="376" y="491" />
+    </box>
+  </image>
+
+  <image file="right_54.jpg"> 
+        <box height="893" left="0" top="0" width="893"> 
+      <part name="1" x="192" y="510" />
+      <part name="2" x="327" y="394" />
+      <part name="3" x="474" y="341" />
+      <part name="4" x="597" y="367" />
+      <part name="5" x="687" y="472" />
+      <part name="6" x="541" y="528" />
+      <part name="7" x="472" y="544" />
+      <part name="8" x="454" y="542" />
+    </box>
+  </image>
+
+  <image file="right_55.jpg"> 
+        <box height="582" left="0" top="0" width="582"> 
+      <part name="1" x="135" y="323" />
+      <part name="2" x="273" y="214" />
+      <part name="3" x="314" y="205" />
+      <part name="4" x="352" y="215" />
+      <part name="5" x="447" y="333" />
+      <part name="6" x="376" y="361" />
+      <part name="7" x="296" y="382" />
+      <part name="8" x="276" y="380" />
+    </box>
+  </image>
+
+  <image file="right_56.jpg"> 
+        <box height="658" left="0" top="0" width="658"> 
+      <part name="1" x="166" y="364" />
+      <part name="2" x="266" y="286" />
+      <part name="3" x="358" y="258" />
+      <part name="4" x="471" y="291" />
+      <part name="5" x="546" y="355" />
+      <part name="6" x="454" y="376" />
+      <part name="7" x="345" y="393" />
+      <part name="8" x="303" y="389" />
+    </box>
+  </image>
+
+  <image file="right_57.jpg"> 
+        <box height="800" left="0" top="0" width="800"> 
+      <part name="1" x="253" y="418" />
+      <part name="2" x="305" y="370" />
+      <part name="3" x="423" y="333" />
+      <part name="4" x="541" y="354" />
+      <part name="5" x="651" y="412" />
+      <part name="6" x="512" y="445" />
+      <part name="7" x="412" y="456" />
+      <part name="8" x="336" y="439" />
+    </box>
+  </image>
+
+  <image file="right_58.jpg"> 
+        <box height="1061" left="0" top="0" width="1061"> 
+      <part name="1" x="206" y="621" />
+      <part name="2" x="371" y="460" />
+      <part name="3" x="565" y="391" />
+      <part name="4" x="754" y="440" />
+      <part name="5" x="866" y="620" />
+      <part name="6" x="719" y="650" />
+      <part name="7" x="527" y="688" />
+      <part name="8" x="438" y="683" />
+    </box>
+  </image>
+
+  <image file="right_59.jpg"> 
+        <box height="637" left="0" top="0" width="637"> 
+      <part name="1" x="161" y="367" />
+      <part name="2" x="226" y="314" />
+      <part name="3" x="364" y="267" />
+      <part name="4" x="464" y="297" />
+      <part name="5" x="542" y="381" />
+      <part name="6" x="415" y="401" />
+      <part name="7" x="331" y="405" />
+      <part name="8" x="267" y="395" />
+    </box>
+  </image>
+
+  <image file="right_61.jpg"> 
+        <box height="832" left="0" top="0" width="832"> 
+      <part name="1" x="209" y="450" />
+      <part name="2" x="368" y="316" />
+      <part name="3" x="468" y="294" />
+      <part name="4" x="567" y="327" />
+      <part name="5" x="648" y="502" />
+      <part name="6" x="502" y="521" />
+      <part name="7" x="460" y="556" />
+      <part name="8" x="429" y="523" />
+    </box>
+  </image>
+
+  <image file="right_62.jpg"> 
+        <box height="778" left="0" top="0" width="778"> 
+      <part name="1" x="138" y="417" />
+      <part name="2" x="199" y="374" />
+      <part name="3" x="368" y="269" />
+      <part name="4" x="447" y="297" />
+      <part name="5" x="579" y="390" />
+      <part name="6" x="374" y="434" />
+      <part name="7" x="337" y="480" />
+      <part name="8" x="308" y="444" />
+    </box>
+  </image>
+
+  <image file="right_63.jpg"> 
+        <box height="542" left="0" top="0" width="542"> 
+      <part name="1" x="114" y="285" />
+      <part name="2" x="229" y="235" />
+      <part name="3" x="381" y="195" />
+      <part name="4" x="486" y="227" />
+      <part name="5" x="540" y="287" />
+      <part name="6" x="470" y="306" />
+      <part name="7" x="364" y="319" />
+      <part name="8" x="272" y="317" />
+    </box>
+  </image>
+
+  <image file="right_64.jpg"> 
+        <box height="829" left="0" top="0" width="829"> 
+      <part name="1" x="241" y="435" />
+      <part name="2" x="365" y="351" />
+      <part name="3" x="496" y="332" />
+      <part name="4" x="652" y="415" />
+      <part name="5" x="702" y="453" />
+      <part name="6" x="627" y="471" />
+      <part name="7" x="461" y="511" />
+      <part name="8" x="404" y="508" />
+    </box>
+  </image>
+
+  <image file="right_65.jpg"> 
+        <box height="603" left="0" top="0" width="603"> 
+      <part name="1" x="184" y="312" />
+      <part name="2" x="242" y="280" />
+      <part name="3" x="355" y="246" />
+      <part name="4" x="437" y="253" />
+      <part name="5" x="520" y="279" />
+      <part name="6" x="387" y="331" />
+      <part name="7" x="337" y="337" />
+      <part name="8" x="304" y="337" />
+    </box>
+  </image>
+
+  <image file="right_67.jpg"> 
+        <box height="691" left="0" top="0" width="691"> 
+      <part name="1" x="218" y="395" />
+      <part name="2" x="281" y="328" />
+      <part name="3" x="389" y="279" />
+      <part name="4" x="482" y="302" />
+      <part name="5" x="555" y="362" />
+      <part name="6" x="458" y="396" />
+      <part name="7" x="365" y="417" />
+      <part name="8" x="331" y="414" />
+    </box>
+  </image>
+
+  <image file="right_68.jpg"> 
+        <box height="854" left="0" top="0" width="854"> 
+      <part name="1" x="218" y="433" />
+      <part name="2" x="360" y="351" />
+      <part name="3" x="501" y="329" />
+      <part name="4" x="624" y="377" />
+      <part name="5" x="721" y="458" />
+      <part name="6" x="548" y="521" />
+      <part name="7" x="501" y="533" />
+      <part name="8" x="464" y="531" />
+    </box>
+  </image>
+
+  <image file="right_69.jpg"> 
+        <box height="724" left="0" top="0" width="724"> 
+      <part name="1" x="157" y="395" />
+      <part name="2" x="325" y="261" />
+      <part name="3" x="436" y="241" />
+      <part name="4" x="541" y="283" />
+      <part name="5" x="669" y="393" />
+      <part name="6" x="517" y="466" />
+      <part name="7" x="435" y="486" />
+      <part name="8" x="355" y="485" />
+    </box>
+  </image>
+
+  <image file="right_70.jpg"> 
+        <box height="403" left="0" top="0" width="403"> 
+      <part name="1" x="3" y="237" />
+      <part name="2" x="68" y="162" />
+      <part name="3" x="190" y="134" />
+      <part name="4" x="295" y="156" />
+      <part name="5" x="383" y="221" />
+      <part name="6" x="234" y="268" />
+      <part name="7" x="184" y="275" />
+      <part name="8" x="146" y="273" />
+    </box>
+  </image>
+  <image file="right_71.jpg"> 
+        <box height="576" left="0" top="0" width="576"> 
+      <part name="1" x="2" y="385" />
+      <part name="2" x="177" y="217" />
+      <part name="3" x="311" y="175" />
+      <part name="4" x="441" y="219" />
+      <part name="5" x="527" y="365" />
+      <part name="6" x="408" y="400" />
+      <part name="7" x="330" y="424" />
+      <part name="8" x="256" y="428" />
+    </box>
+  </image>
+
+  <image file="right_72.jpg"> 
+        <box height="787" left="0" top="0" width="787"> 
+      <part name="1" x="205" y="450" />
+      <part name="2" x="279" y="346" />
+      <part name="3" x="440" y="288" />
+      <part name="4" x="594" y="338" />
+      <part name="5" x="756" y="431" />
+      <part name="6" x="478" y="490" />
+      <part name="7" x="435" y="523" />
+      <part name="8" x="399" y="491" />
+    </box>
+  </image>
+
+  <image file="right_74.jpg"> 
+        <box height="459" left="0" top="0" width="459"> 
+      <part name="1" x="139" y="253" />
+      <part name="2" x="197" y="208" />
+      <part name="3" x="295" y="174" />
+      <part name="4" x="386" y="196" />
+      <part name="5" x="457" y="247" />
+      <part name="6" x="366" y="263" />
+      <part name="7" x="295" y="275" />
+      <part name="8" x="235" y="273" />
+    </box>
+  </image>
+
+  <image file="right_75.jpg"> 
+        <box height="885" left="0" top="0" width="885"> 
+      <part name="1" x="213" y="481" />
+      <part name="2" x="334" y="396" />
+      <part name="3" x="492" y="344" />
+      <part name="4" x="655" y="416" />
+      <part name="5" x="733" y="525" />
+      <part name="6" x="559" y="554" />
+      <part name="7" x="494" y="559" />
+      <part name="8" x="449" y="551" />
+    </box>
+  </image>
+
+  <image file="right_76.jpg"> 
+        <box height="781" left="0" top="0" width="781"> 
+      <part name="1" x="238" y="456" />
+      <part name="2" x="355" y="345" />
+      <part name="3" x="447" y="309" />
+      <part name="4" x="544" y="326" />
+      <part name="5" x="627" y="428" />
+      <part name="6" x="535" y="462" />
+      <part name="7" x="470" y="480" />
+      <part name="8" x="414" y="480" />
+    </box>
+  </image>
+
+  <image file="right_77.jpg"> 
+        <box height="726" left="0" top="0" width="726"> 
+      <part name="1" x="199" y="435" />
+      <part name="2" x="294" y="308" />
+      <part name="3" x="406" y="254" />
+      <part name="4" x="502" y="262" />
+      <part name="5" x="585" y="362" />
+      <part name="6" x="510" y="406" />
+      <part name="7" x="455" y="438" />
+      <part name="8" x="392" y="453" />
+    </box>
+  </image>
+
+  <image file="right_79.jpg"> 
+        <box height="839" left="0" top="0" width="839"> 
+      <part name="1" x="212" y="502" />
+      <part name="2" x="314" y="370" />
+      <part name="3" x="447" y="299" />
+      <part name="4" x="592" y="339" />
+      <part name="5" x="663" y="488" />
+      <part name="6" x="524" y="535" />
+      <part name="7" x="494" y="568" />
+      <part name="8" x="460" y="539" />
+    </box>
+  </image>
+
+  <image file="right_80.jpg"> 
+        <box height="339" left="0" top="0" width="339"> 
+      <part name="1" x="83" y="197" />
+      <part name="2" x="148" y="144" />
+      <part name="3" x="233" y="117" />
+      <part name="4" x="305" y="136" />
+      <part name="5" x="338" y="190" />
+      <part name="6" x="296" y="196" />
+      <part name="7" x="231" y="209" />
+      <part name="8" x="164" y="206" />
+    </box>
+  </image>
+
+  <image file="right_81.jpg"> 
+        <box height="817" left="0" top="0" width="817"> 
+      <part name="1" x="193" y="411" />
+      <part name="2" x="324" y="333" />
+      <part name="3" x="454" y="294" />
+      <part name="4" x="571" y="338" />
+      <part name="5" x="643" y="462" />
+      <part name="6" x="526" y="483" />
+      <part name="7" x="446" y="486" />
+      <part name="8" x="371" y="481" />
+    </box>
+  </image>
+
+  <image file="right_82.jpg"> 
+        <box height="640" left="0" top="0" width="640"> 
+      <part name="1" x="187" y="351" />
+      <part name="2" x="266" y="291" />
+      <part name="3" x="388" y="250" />
+      <part name="4" x="488" y="275" />
+      <part name="5" x="603" y="347" />
+      <part name="6" x="442" y="418" />
+      <part name="7" x="385" y="424" />
+      <part name="8" x="331" y="416" />
+    </box>
+  </image>
+
+  <image file="right_83.jpg"> 
+        <box height="641" left="0" top="0" width="641"> 
+      <part name="1" x="172" y="367" />
+      <part name="2" x="236" y="308" />
+      <part name="3" x="348" y="259" />
+      <part name="4" x="465" y="288" />
+      <part name="5" x="518" y="343" />
+      <part name="6" x="434" y="376" />
+      <part name="7" x="358" y="385" />
+      <part name="8" x="286" y="386" />
+    </box>
+  </image>
+
+  <image file="right_84.jpg"> 
+        <box height="575" left="0" top="0" width="575"> 
+      <part name="1" x="145" y="313" />
+      <part name="2" x="213" y="281" />
+      <part name="3" x="345" y="240" />
+      <part name="4" x="483" y="270" />
+      <part name="5" x="558" y="322" />
+      <part name="6" x="444" y="347" />
+      <part name="7" x="334" y="352" />
+      <part name="8" x="242" y="339" />
+    </box>
+  </image>
+
+  <image file="right_85.jpg"> 
+        <box height="702" left="0" top="0" width="702"> 
+      <part name="1" x="183" y="379" />
+      <part name="2" x="263" y="310" />
+      <part name="3" x="369" y="255" />
+      <part name="4" x="493" y="267" />
+      <part name="5" x="639" y="306" />
+      <part name="6" x="502" y="366" />
+      <part name="7" x="382" y="403" />
+      <part name="8" x="328" y="401" />
+    </box>
+  </image>
+
+  <image file="right_86.jpg"> 
+        <box height="878" left="0" top="0" width="878"> 
+      <part name="1" x="237" y="449" />
+      <part name="2" x="341" y="387" />
+      <part name="3" x="471" y="347" />
+      <part name="4" x="606" y="372" />
+      <part name="5" x="704" y="465" />
+      <part name="6" x="591" y="490" />
+      <part name="7" x="486" y="518" />
+      <part name="8" x="382" y="516" />
+    </box>
+  </image>
+
+  <image file="right_87.jpg"> 
+        <box height="681" left="0" top="0" width="681"> 
+      <part name="1" x="196" y="360" />
+      <part name="2" x="283" y="280" />
+      <part name="3" x="394" y="234" />
+      <part name="4" x="523" y="271" />
+      <part name="5" x="626" y="328" />
+      <part name="6" x="509" y="376" />
+      <part name="7" x="410" y="397" />
+      <part name="8" x="327" y="394" />
+    </box>
+  </image>
+
+  <image file="right_88.jpg"> 
+        <box height="805" left="0" top="0" width="805"> 
+      <part name="1" x="241" y="396" />
+      <part name="2" x="344" y="331" />
+      <part name="3" x="456" y="298" />
+      <part name="4" x="567" y="320" />
+      <part name="5" x="682" y="407" />
+      <part name="6" x="547" y="455" />
+      <part name="7" x="457" y="463" />
+      <part name="8" x="373" y="455" />
+    </box>
+  </image>
+
+  <image file="right_89.jpg"> 
+        <box height="409" left="0" top="0" width="409"> 
+      <part name="1" x="89" y="230" />
+      <part name="2" x="153" y="171" />
+      <part name="3" x="217" y="143" />
+      <part name="4" x="275" y="161" />
+      <part name="5" x="350" y="246" />
+      <part name="6" x="265" y="272" />
+      <part name="7" x="209" y="271" />
+      <part name="8" x="169" y="270" />
+    </box>
+  </image>
+
+  <image file="right_90.jpg"> 
+        <box height="564" left="0" top="0" width="564"> 
+      <part name="1" x="137" y="337" />
+      <part name="2" x="245" y="250" />
+      <part name="3" x="335" y="220" />
+      <part name="4" x="434" y="259" />
+      <part name="5" x="482" y="317" />
+      <part name="6" x="422" y="335" />
+      <part name="7" x="340" y="344" />
+      <part name="8" x="261" y="345" />
+    </box>
+  </image>
+
+  <image file="right_92.jpg"> 
+        <box height="590" left="0" top="0" width="590"> 
+      <part name="1" x="129" y="328" />
+      <part name="2" x="188" y="267" />
+      <part name="3" x="294" y="200" />
+      <part name="4" x="426" y="234" />
+      <part name="5" x="527" y="313" />
+      <part name="6" x="346" y="353" />
+      <part name="7" x="318" y="396" />
+      <part name="8" x="281" y="360" />
+    </box>
+  </image>
+
+  <image file="right_93.jpg"> 
+        <box height="494" left="0" top="0" width="494"> 
+      <part name="1" x="121" y="245" />
+      <part name="2" x="168" y="221" />
+      <part name="3" x="251" y="188" />
+      <part name="4" x="323" y="188" />
+      <part name="5" x="382" y="259" />
+      <part name="6" x="310" y="285" />
+      <part name="7" x="249" y="294" />
+      <part name="8" x="195" y="283" />
+    </box>
+  </image>
+
+  <image file="right_94.jpg"> 
+        <box height="624" left="0" top="0" width="624"> 
+      <part name="1" x="165" y="308" />
+      <part name="2" x="269" y="265" />
+      <part name="3" x="363" y="260" />
+      <part name="4" x="441" y="283" />
+      <part name="5" x="467" y="354" />
+      <part name="6" x="431" y="362" />
+      <part name="7" x="344" y="372" />
+      <part name="8" x="270" y="357" />
+    </box>
+  </image>
+
+  <image file="right_95.jpg"> 
+        <box height="723" left="0" top="0" width="723"> 
+      <part name="1" x="209" y="390" />
+      <part name="2" x="298" y="323" />
+      <part name="3" x="400" y="282" />
+      <part name="4" x="517" y="299" />
+      <part name="5" x="628" y="362" />
+      <part name="6" x="478" y="420" />
+      <part name="7" x="426" y="433" />
+      <part name="8" x="376" y="429" />
+    </box>
+  </image>
+
+  <image file="right_97.jpg"> 
+        <box height="1015" left="0" top="0" width="1015"> 
+      <part name="1" x="285" y="557" />
+      <part name="2" x="435" y="445" />
+      <part name="3" x="569" y="407" />
+      <part name="4" x="709" y="447" />
+      <part name="5" x="792" y="568" />
+      <part name="6" x="688" y="605" />
+      <part name="7" x="579" y="627" />
+      <part name="8" x="471" y="623" />
+    </box>
+  </image>
+
+  <image file="right_98.jpg"> 
+        <box height="938" left="0" top="0" width="938"> 
+      <part name="1" x="259" y="510" />
+      <part name="2" x="415" y="402" />
+      <part name="3" x="548" y="375" />
+      <part name="4" x="686" y="409" />
+      <part name="5" x="802" y="545" />
+      <part name="6" x="651" y="581" />
+      <part name="7" x="536" y="586" />
+      <part name="8" x="435" y="572" />
+    </box>
+  </image>
+
+  <image file="right_100.jpg"> 
+        <box height="912" left="0" top="0" width="912"> 
+      <part name="1" x="271" y="469" />
+      <part name="2" x="392" y="359" />
+      <part name="3" x="517" y="328" />
+      <part name="4" x="652" y="380" />
+      <part name="5" x="765" y="477" />
+      <part name="6" x="652" y="516" />
+      <part name="7" x="507" y="541" />
+      <part name="8" x="382" y="521" />
+    </box>
+  </image>
+
+  <image file="right_101.jpg"> 
+        <box height="683" left="0" top="0" width="683"> 
+      <part name="1" x="145" y="348" />
+      <part name="2" x="253" y="277" />
+      <part name="3" x="379" y="238" />
+      <part name="4" x="499" y="268" />
+      <part name="5" x="628" y="372" />
+      <part name="6" x="424" y="428" />
+      <part name="7" x="385" y="456" />
+      <part name="8" x="353" y="430" />
+    </box>
+  </image>
+
+  <image file="right_102.jpg"> 
+        <box height="811" left="0" top="0" width="811"> 
+      <part name="1" x="245" y="435" />
+      <part name="2" x="300" y="398" />
+      <part name="3" x="407" y="352" />
+      <part name="4" x="552" y="365" />
+      <part name="5" x="649" y="467" />
+      <part name="6" x="486" y="498" />
+      <part name="7" x="421" y="502" />
+      <part name="8" x="367" y="493" />
+    </box>
+  </image>
+
+  <image file="right_103.jpg"> 
+        <box height="681" left="0" top="0" width="681"> 
+      <part name="1" x="191" y="368" />
+      <part name="2" x="281" y="306" />
+      <part name="3" x="382" y="278" />
+      <part name="4" x="483" y="302" />
+      <part name="5" x="571" y="384" />
+      <part name="6" x="408" y="413" />
+      <part name="7" x="383" y="447" />
+      <part name="8" x="357" y="415" />
+    </box>
+  </image>
+
+  <image file="right_104.jpg"> 
+        <box height="750" left="0" top="0" width="750"> 
+      <part name="1" x="197" y="379" />
+      <part name="2" x="295" y="332" />
+      <part name="3" x="414" y="305" />
+      <part name="4" x="536" y="329" />
+      <part name="5" x="631" y="383" />
+      <part name="6" x="483" y="432" />
+      <part name="7" x="423" y="439" />
+      <part name="8" x="376" y="440" />
+    </box>
+  </image>
+
+  <image file="right_105.jpg"> 
+        <box height="890" left="0" top="0" width="890"> 
+      <part name="1" x="221" y="530" />
+      <part name="2" x="404" y="377" />
+      <part name="3" x="513" y="347" />
+      <part name="4" x="636" y="369" />
+      <part name="5" x="781" y="459" />
+      <part name="6" x="635" y="535" />
+      <part name="7" x="536" y="564" />
+      <part name="8" x="458" y="565" />
+    </box>
+  </image>
+
+  <image file="right_106.jpg"> 
+        <box height="612" left="0" top="0" width="612"> 
+      <part name="1" x="141" y="314" />
+      <part name="2" x="256" y="225" />
+      <part name="3" x="332" y="210" />
+      <part name="4" x="423" y="252" />
+      <part name="5" x="490" y="374" />
+      <part name="6" x="350" y="390" />
+      <part name="7" x="323" y="406" />
+      <part name="8" x="302" y="384" />
+    </box>
+  </image>
+
+  <image file="right_107.jpg"> 
+        <box height="877" left="0" top="0" width="877"> 
+      <part name="1" x="241" y="470" />
+      <part name="2" x="357" y="408" />
+      <part name="3" x="496" y="376" />
+      <part name="4" x="661" y="430" />
+      <part name="5" x="722" y="469" />
+      <part name="6" x="639" y="490" />
+      <part name="7" x="494" y="505" />
+      <part name="8" x="374" y="498" />
+    </box>
+  </image>
+
+
+  <image file="right_108.jpg"> 
+        <box height="589" left="0" top="0" width="589"> 
+      <part name="1" x="155" y="326" />
+      <part name="2" x="232" y="255" />
+      <part name="3" x="334" y="223" />
+      <part name="4" x="455" y="252" />
+      <part name="5" x="500" y="339" />
+      <part name="6" x="401" y="369" />
+      <part name="7" x="341" y="378" />
+      <part name="8" x="304" y="373" />
+    </box>
+  </image>
+
+  <image file="right_110.jpg"> 
+        <box height="869" left="0" top="0" width="869"> 
+      <part name="1" x="299" y="450" />
+      <part name="2" x="381" y="392" />
+      <part name="3" x="516" y="341" />
+      <part name="4" x="668" y="374" />
+      <part name="5" x="770" y="439" />
+      <part name="6" x="648" y="477" />
+      <part name="7" x="530" y="498" />
+      <part name="8" x="410" y="489" />
+    </box>
+  </image>
+
+  <image file="right_111.jpg"> 
+        <box height="581" left="0" top="0" width="581"> 
+      <part name="1" x="136" y="289" />
+      <part name="2" x="221" y="240" />
+      <part name="3" x="320" y="217" />
+      <part name="4" x="423" y="245" />
+      <part name="5" x="492" y="276" />
+      <part name="6" x="379" y="327" />
+      <part name="7" x="330" y="336" />
+      <part name="8" x="283" y="335" />
+    </box>
+  </image>
+
+  <image file="right_112.jpg"> 
+        <box height="684" left="0" top="0" width="684"> 
+      <part name="1" x="161" y="330" />
+      <part name="2" x="254" y="296" />
+      <part name="3" x="363" y="278" />
+      <part name="4" x="475" y="297" />
+      <part name="5" x="561" y="376" />
+      <part name="6" x="433" y="410" />
+      <part name="7" x="364" y="416" />
+      <part name="8" x="303" y="405" />
+    </box>
+  </image>
+
+  <image file="right_113.jpg"> 
+        <box height="909" left="0" top="0" width="909"> 
+      <part name="1" x="243" y="479" />
+      <part name="2" x="394" y="369" />
+      <part name="3" x="511" y="333" />
+      <part name="4" x="642" y="356" />
+      <part name="5" x="795" y="511" />
+      <part name="6" x="596" y="584" />
+      <part name="7" x="533" y="594" />
+      <part name="8" x="491" y="595" />
+    </box>
+  </image>
+
+  <image file="right_114.jpg"> 
+        <box height="877" left="0" top="0" width="877"> 
+      <part name="1" x="201" y="434" />
+      <part name="2" x="342" y="363" />
+      <part name="3" x="481" y="320" />
+      <part name="4" x="638" y="379" />
+      <part name="5" x="759" y="453" />
+      <part name="6" x="580" y="497" />
+      <part name="7" x="507" y="511" />
+      <part name="8" x="438" y="516" />
+    </box>
+  </image>
+
+  <image file="right_115.jpg"> 
+        <box height="742" left="0" top="0" width="742"> 
+      <part name="1" x="185" y="385" />
+      <part name="2" x="304" y="303" />
+      <part name="3" x="434" y="271" />
+      <part name="4" x="588" y="322" />
+      <part name="5" x="682" y="429" />
+      <part name="6" x="493" y="465" />
+      <part name="7" x="438" y="469" />
+      <part name="8" x="388" y="461" />
+    </box>
+  </image>
+
+  <image file="right_116.jpg"> 
+        <box height="730" left="0" top="0" width="730"> 
+      <part name="1" x="202" y="439" />
+      <part name="2" x="301" y="348" />
+      <part name="3" x="428" y="272" />
+      <part name="4" x="564" y="280" />
+      <part name="5" x="716" y="326" />
+      <part name="6" x="539" y="401" />
+      <part name="7" x="473" y="427" />
+      <part name="8" x="404" y="442" />
+    </box>
+  </image>
+
+  <image file="right_117.jpg"> 
+        <box height="837" left="0" top="0" width="837"> 
+      <part name="1" x="242" y="452" />
+      <part name="2" x="347" y="385" />
+      <part name="3" x="480" y="339" />
+      <part name="4" x="627" y="377" />
+      <part name="5" x="737" y="440" />
+      <part name="6" x="602" y="464" />
+      <part name="7" x="488" y="479" />
+      <part name="8" x="386" y="479" />
+    </box>
+  </image>
+
+  <image file="right_118.jpg"> 
+        <box height="677" left="0" top="0" width="677"> 
+      <part name="1" x="162" y="360" />
+      <part name="2" x="279" y="283" />
+      <part name="3" x="391" y="247" />
+      <part name="4" x="498" y="268" />
+      <part name="5" x="628" y="372" />
+      <part name="6" x="474" y="431" />
+      <part name="7" x="398" y="441" />
+      <part name="8" x="333" y="438" />
+    </box>
+  </image>
+
+  <image file="right_120.jpg"> 
+        <box height="752" left="0" top="0" width="752"> 
+      <part name="1" x="191" y="423" />
+      <part name="2" x="315" y="330" />
+      <part name="3" x="450" y="278" />
+      <part name="4" x="597" y="316" />
+      <part name="5" x="685" y="384" />
+      <part name="6" x="566" y="428" />
+      <part name="7" x="476" y="449" />
+      <part name="8" x="387" y="454" />
+    </box>
+  </image>
+
+  <image file="right_121.jpg"> 
+        <box height="1182" left="0" top="0" width="1182"> 
+      <part name="1" x="391" y="623" />
+      <part name="2" x="506" y="531" />
+      <part name="3" x="678" y="461" />
+      <part name="4" x="870" y="514" />
+      <part name="5" x="1038" y="610" />
+      <part name="6" x="806" y="678" />
+      <part name="7" x="720" y="703" />
+      <part name="8" x="637" y="705" />
+    </box>
+  </image>
+
+  <image file="right_122.jpg"> 
+        <box height="859" left="0" top="0" width="859"> 
+      <part name="1" x="256" y="471" />
+      <part name="2" x="335" y="360" />
+      <part name="3" x="461" y="325" />
+      <part name="4" x="606" y="362" />
+      <part name="5" x="735" y="447" />
+      <part name="6" x="548" y="536" />
+      <part name="7" x="498" y="553" />
+      <part name="8" x="444" y="552" />
+    </box>
+  </image>
+
+  <image file="right_123.jpg"> 
+        <box height="509" left="0" top="0" width="509"> 
+      <part name="1" x="123" y="261" />
+      <part name="2" x="204" y="216" />
+      <part name="3" x="287" y="203" />
+      <part name="4" x="359" y="230" />
+      <part name="5" x="438" y="300" />
+      <part name="6" x="323" y="332" />
+      <part name="7" x="275" y="336" />
+      <part name="8" x="231" y="334" />
+    </box>
+  </image>
+
+  <image file="right_124.jpg"> 
+        <box height="794" left="0" top="0" width="794"> 
+      <part name="1" x="210" y="441" />
+      <part name="2" x="294" y="384" />
+      <part name="3" x="420" y="318" />
+      <part name="4" x="557" y="368" />
+      <part name="5" x="670" y="425" />
+      <part name="6" x="496" y="463" />
+      <part name="7" x="445" y="474" />
+      <part name="8" x="398" y="473" />
+    </box>
+  </image>
+
+  <image file="right_125.jpg"> 
+        <box height="549" left="0" top="0" width="549"> 
+      <part name="1" x="101" y="311" />
+      <part name="2" x="200" y="251" />
+      <part name="3" x="315" y="221" />
+      <part name="4" x="439" y="243" />
+      <part name="5" x="528" y="272" />
+      <part name="6" x="400" y="346" />
+      <part name="7" x="334" y="365" />
+      <part name="8" x="266" y="365" />
+    </box>
+  </image>
+
+  <image file="right_128.jpg"> 
+        <box height="687" left="0" top="0" width="687"> 
+      <part name="1" x="175" y="356" />
+      <part name="2" x="269" y="285" />
+      <part name="3" x="399" y="239" />
+      <part name="4" x="537" y="269" />
+      <part name="5" x="637" y="347" />
+      <part name="6" x="497" y="399" />
+      <part name="7" x="410" y="412" />
+      <part name="8" x="310" y="403" />
+    </box>
+  </image>
+
+  <image file="right_129.jpg"> 
+        <box height="755" left="0" top="0" width="755"> 
+      <part name="1" x="200" y="401" />
+      <part name="2" x="301" y="333" />
+      <part name="3" x="431" y="277" />
+      <part name="4" x="569" y="328" />
+      <part name="5" x="657" y="389" />
+      <part name="6" x="498" y="446" />
+      <part name="7" x="437" y="452" />
+      <part name="8" x="387" y="450" />
+    </box>
+  </image>
+
+  <image file="right_130.jpg"> 
+        <box height="731" left="0" top="0" width="731"> 
+      <part name="1" x="166" y="427" />
+      <part name="2" x="269" y="360" />
+      <part name="3" x="403" y="306" />
+      <part name="4" x="543" y="322" />
+      <part name="5" x="630" y="370" />
+      <part name="6" x="524" y="404" />
+      <part name="7" x="428" y="436" />
+      <part name="8" x="330" y="453" />
+    </box>
+  </image>
+
+  <image file="right_131.jpg"> 
+        <box height="861" left="0" top="0" width="861"> 
+      <part name="1" x="213" y="451" />
+      <part name="2" x="384" y="351" />
+      <part name="3" x="528" y="284" />
+      <part name="4" x="659" y="344" />
+      <part name="5" x="786" y="485" />
+      <part name="6" x="584" y="539" />
+      <part name="7" x="530" y="542" />
+      <part name="8" x="470" y="537" />
+    </box>
+  </image>
+
+  <image file="right_132.jpg"> 
+        <box height="666" left="0" top="0" width="666"> 
+      <part name="1" x="139" y="340" />
+      <part name="2" x="238" y="266" />
+      <part name="3" x="372" y="240" />
+      <part name="4" x="499" y="276" />
+      <part name="5" x="599" y="363" />
+      <part name="6" x="480" y="391" />
+      <part name="7" x="370" y="400" />
+      <part name="8" x="256" y="383" />
+    </box>
+  </image>
+
+  <image file="right_133.jpg"> 
+        <box height="823" left="0" top="0" width="823"> 
+      <part name="1" x="203" y="447" />
+      <part name="2" x="343" y="346" />
+      <part name="3" x="482" y="306" />
+      <part name="4" x="628" y="346" />
+      <part name="5" x="762" y="411" />
+      <part name="6" x="613" y="465" />
+      <part name="7" x="508" y="507" />
+      <part name="8" x="407" y="510" />
+    </box>
+  </image>
+
+  <image file="right_134.jpg"> 
+        <box height="981" left="0" top="0" width="981"> 
+      <part name="1" x="271" y="522" />
+      <part name="2" x="450" y="423" />
+      <part name="3" x="579" y="399" />
+      <part name="4" x="709" y="453" />
+      <part name="5" x="843" y="554" />
+      <part name="6" x="656" y="595" />
+      <part name="7" x="578" y="600" />
+      <part name="8" x="499" y="598" />
+    </box>
+  </image>
+
+  <image file="right_135.jpg"> 
+        <box height="920" left="0" top="0" width="920"> 
+      <part name="1" x="209" y="461" />
+      <part name="2" x="374" y="391" />
+      <part name="3" x="517" y="355" />
+      <part name="4" x="663" y="412" />
+      <part name="5" x="767" y="487" />
+      <part name="6" x="616" y="551" />
+      <part name="7" x="523" y="568" />
+      <part name="8" x="455" y="568" />
+    </box>
+  </image>
+
+  <image file="right_136.jpg"> 
+        <box height="659" left="0" top="0" width="659"> 
+      <part name="1" x="169" y="332" />
+      <part name="2" x="237" y="294" />
+      <part name="3" x="356" y="259" />
+      <part name="4" x="481" y="287" />
+      <part name="5" x="571" y="350" />
+      <part name="6" x="469" y="387" />
+      <part name="7" x="356" y="397" />
+      <part name="8" x="240" y="371" />
+    </box>
+  </image>
+
+  <image file="right_137.jpg"> 
+        <box height="524" left="0" top="0" width="524"> 
+      <part name="1" x="145" y="275" />
+      <part name="2" x="212" y="213" />
+      <part name="3" x="285" y="193" />
+      <part name="4" x="356" y="211" />
+      <part name="5" x="423" y="282" />
+      <part name="6" x="321" y="313" />
+      <part name="7" x="280" y="316" />
+      <part name="8" x="242" y="311" />
+    </box>
+  </image>
+
+  <image file="right_138.jpg"> 
+        <box height="642" left="0" top="0" width="642"> 
+      <part name="1" x="96" y="343" />
+      <part name="2" x="234" y="266" />
+      <part name="3" x="340" y="236" />
+      <part name="4" x="449" y="253" />
+      <part name="5" x="555" y="346" />
+      <part name="6" x="439" y="415" />
+      <part name="7" x="357" y="435" />
+      <part name="8" x="290" y="439" />
+    </box>
+  </image>
+
+  <image file="right_140.jpg"> 
+        <box height="378" left="0" top="0" width="378"> 
+      <part name="1" x="104" y="189" />
+      <part name="2" x="153" y="162" />
+      <part name="3" x="226" y="152" />
+      <part name="4" x="282" y="186" />
+      <part name="5" x="310" y="207" />
+      <part name="6" x="275" y="207" />
+      <part name="7" x="210" y="207" />
+      <part name="8" x="153" y="200" />
+    </box>
+  </image>
+
+  <image file="right_141.jpg"> 
+        <box height="638" left="0" top="0" width="638"> 
+      <part name="1" x="201" y="345" />
+      <part name="2" x="299" y="296" />
+      <part name="3" x="422" y="274" />
+      <part name="4" x="539" y="315" />
+      <part name="5" x="619" y="383" />
+      <part name="6" x="473" y="416" />
+      <part name="7" x="422" y="422" />
+      <part name="8" x="375" y="419" />
+    </box>
+  </image>
+
+  <image file="right_142.jpg"> 
+        <box height="655" left="0" top="0" width="655"> 
+      <part name="1" x="144" y="334" />
+      <part name="2" x="252" y="294" />
+      <part name="3" x="360" y="278" />
+      <part name="4" x="487" y="300" />
+      <part name="5" x="572" y="358" />
+      <part name="6" x="426" y="408" />
+      <part name="7" x="369" y="414" />
+      <part name="8" x="310" y="409" />
+    </box>
+  </image>
+
+  <image file="right_143.jpg"> 
+        <box height="738" left="0" top="0" width="738"> 
+      <part name="1" x="214" y="392" />
+      <part name="2" x="284" y="366" />
+      <part name="3" x="385" y="332" />
+      <part name="4" x="492" y="350" />
+      <part name="5" x="542" y="380" />
+      <part name="6" x="458" y="414" />
+      <part name="7" x="403" y="428" />
+      <part name="8" x="345" y="428" />
+    </box>
+  </image>
+
+  <image file="right_144.jpg"> 
+        <box height="782" left="0" top="0" width="782"> 
+      <part name="1" x="249" y="407" />
+      <part name="2" x="327" y="356" />
+      <part name="3" x="444" y="318" />
+      <part name="4" x="580" y="354" />
+      <part name="5" x="655" y="415" />
+      <part name="6" x="520" y="467" />
+      <part name="7" x="468" y="475" />
+      <part name="8" x="413" y="471" />
+    </box>
+  </image>
+
+  <image file="right_145.jpg"> 
+        <box height="822" left="0" top="0" width="822"> 
+      <part name="1" x="231" y="452" />
+      <part name="2" x="337" y="353" />
+      <part name="3" x="479" y="289" />
+      <part name="4" x="613" y="326" />
+      <part name="5" x="720" y="419" />
+      <part name="6" x="566" y="476" />
+      <part name="7" x="474" y="490" />
+      <part name="8" x="392" y="485" />
+    </box>
+  </image>
+
+  <image file="right_146.jpg"> 
+        <box height="824" left="0" top="0" width="824"> 
+      <part name="1" x="198" y="447" />
+      <part name="2" x="333" y="354" />
+      <part name="3" x="457" y="313" />
+      <part name="4" x="612" y="328" />
+      <part name="5" x="746" y="433" />
+      <part name="6" x="548" y="520" />
+      <part name="7" x="498" y="531" />
+      <part name="8" x="452" y="533" />
+    </box>
+  </image>
+
+  <image file="right_147.jpg"> 
+        <box height="799" left="0" top="0" width="799"> 
+      <part name="1" x="185" y="417" />
+      <part name="2" x="401" y="320" />
+      <part name="3" x="493" y="315" />
+      <part name="4" x="584" y="365" />
+      <part name="5" x="675" y="468" />
+      <part name="6" x="575" y="498" />
+      <part name="7" x="458" y="503" />
+      <part name="8" x="352" y="489" />
+    </box>
+  </image>
+
+  <image file="right_148.jpg"> 
+        <box height="1048" left="0" top="0" width="1048"> 
+      <part name="1" x="331" y="559" />
+      <part name="2" x="398" y="523" />
+      <part name="3" x="514" y="478" />
+      <part name="4" x="666" y="516" />
+      <part name="5" x="725" y="562" />
+      <part name="6" x="645" y="599" />
+      <part name="7" x="526" y="606" />
+      <part name="8" x="411" y="590" />
+    </box>
+  </image>
+
+  <image file="right_149.jpg"> 
+        <box height="609" left="0" top="0" width="609"> 
+      <part name="1" x="159" y="327" />
+      <part name="2" x="241" y="268" />
+      <part name="3" x="356" y="241" />
+      <part name="4" x="472" y="274" />
+      <part name="5" x="552" y="351" />
+      <part name="6" x="423" y="378" />
+      <part name="7" x="357" y="377" />
+      <part name="8" x="289" y="373" />
+    </box>
+  </image>
+
+  <image file="right_150.jpg"> 
+        <box height="734" left="0" top="0" width="734"> 
+      <part name="1" x="159" y="403" />
+      <part name="2" x="275" y="329" />
+      <part name="3" x="407" y="280" />
+      <part name="4" x="562" y="310" />
+      <part name="5" x="656" y="364" />
+      <part name="6" x="533" y="404" />
+      <part name="7" x="428" y="430" />
+      <part name="8" x="319" y="430" />
+    </box>
+  </image>
+
+  <image file="right_151.jpg"> 
+        <box height="714" left="0" top="0" width="714"> 
+      <part name="1" x="157" y="383" />
+      <part name="2" x="289" y="311" />
+      <part name="3" x="423" y="296" />
+      <part name="4" x="541" y="331" />
+      <part name="5" x="679" y="409" />
+      <part name="6" x="508" y="441" />
+      <part name="7" x="409" y="452" />
+      <part name="8" x="330" y="439" />
+    </box>
+  </image>
+
+  <image file="right_152.jpg"> 
+        <box height="413" left="0" top="0" width="413"> 
+      <part name="1" x="4" y="263" />
+      <part name="2" x="103" y="162" />
+      <part name="3" x="200" y="133" />
+      <part name="4" x="305" y="161" />
+      <part name="5" x="412" y="251" />
+      <part name="6" x="266" y="302" />
+      <part name="7" x="220" y="313" />
+      <part name="8" x="169" y="307" />
+    </box>
+  </image>
+
+  <image file="right_153.jpg"> 
+        <box height="426" left="0" top="0" width="426"> 
+      <part name="1" x="56" y="242" />
+      <part name="2" x="133" y="186" />
+      <part name="3" x="224" y="158" />
+      <part name="4" x="326" y="183" />
+      <part name="5" x="407" y="233" />
+      <part name="6" x="309" y="256" />
+      <part name="7" x="226" y="270" />
+      <part name="8" x="154" y="263" />
+    </box>
+  </image>
+
+  <image file="right_154.jpg"> 
+        <box height="868" left="0" top="0" width="868"> 
+      <part name="1" x="315" y="481" />
+      <part name="2" x="382" y="421" />
+      <part name="3" x="481" y="381" />
+      <part name="4" x="610" y="420" />
+      <part name="5" x="678" y="485" />
+      <part name="6" x="601" y="495" />
+      <part name="7" x="490" y="497" />
+      <part name="8" x="374" y="487" />
+    </box>
+  </image>
+
+  <image file="right_155.jpg"> 
+        <box height="427" left="0" top="0" width="427"> 
+      <part name="1" x="111" y="232" />
+      <part name="2" x="182" y="178" />
+      <part name="3" x="238" y="164" />
+      <part name="4" x="305" y="175" />
+      <part name="5" x="398" y="219" />
+      <part name="6" x="275" y="268" />
+      <part name="7" x="241" y="285" />
+      <part name="8" x="214" y="270" />
+    </box>
+  </image>
+
+  <image file="right_156.jpg"> 
+        <box height="867" left="0" top="0" width="867"> 
+      <part name="1" x="242" y="471" />
+      <part name="2" x="363" y="351" />
+      <part name="3" x="471" y="325" />
+      <part name="4" x="600" y="364" />
+      <part name="5" x="726" y="461" />
+      <part name="6" x="535" y="546" />
+      <part name="7" x="501" y="555" />
+      <part name="8" x="470" y="554" />
+    </box>
+  </image>
+
+  <image file="right_157.jpg"> 
+        <box height="633" left="0" top="0" width="633"> 
+      <part name="1" x="169" y="345" />
+      <part name="2" x="273" y="271" />
+      <part name="3" x="364" y="245" />
+      <part name="4" x="459" y="274" />
+      <part name="5" x="546" y="347" />
+      <part name="6" x="426" y="387" />
+      <part name="7" x="371" y="391" />
+      <part name="8" x="311" y="390" />
+    </box>
+  </image>
+
+  <image file="right_158.jpg"> 
+        <box height="635" left="0" top="0" width="635"> 
+      <part name="1" x="135" y="346" />
+      <part name="2" x="247" y="265" />
+      <part name="3" x="350" y="230" />
+      <part name="4" x="465" y="268" />
+      <part name="5" x="545" y="326" />
+      <part name="6" x="432" y="378" />
+      <part name="7" x="371" y="394" />
+      <part name="8" x="311" y="400" />
+    </box>
+  </image>
+
+  <image file="right_159.jpg"> 
+        <box height="699" left="0" top="0" width="699"> 
+      <part name="1" x="206" y="387" />
+      <part name="2" x="321" y="297" />
+      <part name="3" x="422" y="268" />
+      <part name="4" x="522" y="296" />
+      <part name="5" x="633" y="370" />
+      <part name="6" x="476" y="432" />
+      <part name="7" x="432" y="442" />
+      <part name="8" x="394" y="446" />
+    </box>
+  </image>
+
+  <image file="right_160.jpg"> 
+        <box height="593" left="0" top="0" width="593"> 
+      <part name="1" x="88" y="316" />
+      <part name="2" x="206" y="243" />
+      <part name="3" x="305" y="221" />
+      <part name="4" x="424" y="277" />
+      <part name="5" x="538" y="344" />
+      <part name="6" x="393" y="362" />
+      <part name="7" x="302" y="365" />
+      <part name="8" x="217" y="353" />
+    </box>
+  </image>
+
+  <image file="right_161.jpg"> 
+        <box height="432" left="0" top="0" width="432"> 
+      <part name="1" x="138" y="231" />
+      <part name="2" x="178" y="198" />
+      <part name="3" x="255" y="178" />
+      <part name="4" x="347" y="203" />
+      <part name="5" x="409" y="225" />
+      <part name="6" x="311" y="248" />
+      <part name="7" x="266" y="258" />
+      <part name="8" x="233" y="256" />
+    </box>
+  </image>
+
+  <image file="right_162.jpg"> 
+        <box height="828" left="0" top="0" width="828"> 
+      <part name="1" x="261" y="415" />
+      <part name="2" x="347" y="373" />
+      <part name="3" x="456" y="345" />
+      <part name="4" x="577" y="393" />
+      <part name="5" x="682" y="443" />
+      <part name="6" x="559" y="463" />
+      <part name="7" x="451" y="476" />
+      <part name="8" x="358" y="462" />
+    </box>
+  </image>
+
+  </images>
+</dataset>

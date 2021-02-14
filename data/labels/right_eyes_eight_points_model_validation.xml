@@ -1,0 +1,464 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>All images</name>
+
+<images>
+  <image file='../processed/right/right_80.jpg'> 
+        <box top='0' left='0' width='322' height='322'> 
+      <part name='1' x='58' y='190'/>
+      <part name='2' x='117' y='145'/>
+      <part name='3' x='204' y='114'/>
+      <part name='4' x='278' y='135'/>
+      <part name='5' x='318' y='189'/>
+      <part name='6' x='262' y='197'/>
+      <part name='7' x='189' y='209'/>
+      <part name='8' x='135' y='205'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_81.jpg'> 
+        <box top='0' left='0' width='777' height='777'> 
+      <part name='1' x='171' y='388'/>
+      <part name='2' x='304' y='304'/>
+      <part name='3' x='436' y='264'/>
+      <part name='4' x='553' y='315'/>
+      <part name='5' x='610' y='440'/>
+      <part name='6' x='508' y='463'/>
+      <part name='7' x='417' y='469'/>
+      <part name='8' x='349' y='461'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_82.jpg'> 
+        <box top='0' left='0' width='594' height='594'> 
+      <part name='1' x='168' y='322'/>
+      <part name='2' x='246' y='270'/>
+      <part name='3' x='378' y='230'/>
+      <part name='4' x='467' y='259'/>
+      <part name='5' x='577' y='365'/>
+      <part name='6' x='424' y='396'/>
+      <part name='7' x='361' y='407'/>
+      <part name='8' x='314' y='399'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_83.jpg'> 
+        <box top='0' left='0' width='587' height='587'> 
+      <part name='1' x='143' y='327'/>
+      <part name='2' x='207' y='274'/>
+      <part name='3' x='349' y='227'/>
+      <part name='4' x='433' y='259'/>
+      <part name='5' x='483' y='319'/>
+      <part name='6' x='406' y='340'/>
+      <part name='7' x='309' y='357'/>
+      <part name='8' x='249' y='354'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_84.jpg'> 
+        <box top='0' left='0' width='580' height='580'> 
+      <part name='1' x='130' y='314'/>
+      <part name='2' x='197' y='281'/>
+      <part name='3' x='352' y='237'/>
+      <part name='4' x='469' y='267'/>
+      <part name='5' x='532' y='333'/>
+      <part name='6' x='424' y='349'/>
+      <part name='7' x='353' y='352'/>
+      <part name='8' x='230' y='336'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_85.jpg'> 
+        <box top='0' left='0' width='687' height='687'> 
+      <part name='1' x='172' y='362'/>
+      <part name='2' x='249' y='299'/>
+      <part name='3' x='404' y='237'/>
+      <part name='4' x='478' y='256'/>
+      <part name='5' x='632' y='296'/>
+      <part name='6' x='474' y='354'/>
+      <part name='7' x='370' y='393'/>
+      <part name='8' x='316' y='389'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_86.jpg'> 
+        <box top='0' left='0' width='843' height='843'> 
+      <part name='1' x='210' y='429'/>
+      <part name='2' x='324' y='357'/>
+      <part name='3' x='471' y='310'/>
+      <part name='4' x='578' y='342'/>
+      <part name='5' x='682' y='444'/>
+      <part name='6' x='560' y='470'/>
+      <part name='7' x='432' y='500'/>
+      <part name='8' x='360' y='488'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_87.jpg'> 
+        <box top='0' left='0' width='676' height='676'> 
+      <part name='1' x='163' y='372'/>
+      <part name='2' x='263' y='281'/>
+      <part name='3' x='403' y='236'/>
+      <part name='4' x='507' y='268'/>
+      <part name='5' x='590' y='356'/>
+      <part name='6' x='483' y='378'/>
+      <part name='7' x='366' y='400'/>
+      <part name='8' x='314' y='390'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_88.jpg'> 
+        <box top='0' left='0' width='747' height='747'> 
+      <part name='1' x='209' y='363'/>
+      <part name='2' x='306' y='301'/>
+      <part name='3' x='444' y='268'/>
+      <part name='4' x='530' y='290'/>
+      <part name='5' x='627' y='397'/>
+      <part name='6' x='514' y='425'/>
+      <part name='7' x='432' y='436'/>
+      <part name='8' x='333' y='425'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_89.jpg'> 
+        <box top='0' left='0' width='475' height='475'> 
+      <part name='1' x='127' y='258'/>
+      <part name='2' x='191' y='203'/>
+      <part name='3' x='271' y='176'/>
+      <part name='4' x='318' y='195'/>
+      <part name='5' x='384' y='291'/>
+      <part name='6' x='306' y='306'/>
+      <part name='7' x='261' y='306'/>
+      <part name='8' x='212' y='303'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_90.jpg'> 
+        <box top='0' left='0' width='520' height='520'> 
+      <part name='1' x='123' y='317'/>
+      <part name='2' x='221' y='231'/>
+      <part name='3' x='322' y='203'/>
+      <part name='4' x='409' y='245'/>
+      <part name='5' x='455' y='313'/>
+      <part name='6' x='398' y='322'/>
+      <part name='7' x='315' y='328'/>
+      <part name='8' x='236' y='330'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_92.jpg'> 
+        <box top='0' left='0' width='517' height='517'> 
+      <part name='1' x='91' y='300'/>
+      <part name='2' x='150' y='241'/>
+      <part name='3' x='272' y='164'/>
+      <part name='4' x='386' y='201'/>
+      <part name='5' x='489' y='282'/>
+      <part name='6' x='323' y='317'/>
+      <part name='7' x='286' y='362'/>
+      <part name='8' x='239' y='331'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_93.jpg'> 
+        <box top='0' left='0' width='439' height='439'> 
+      <part name='1' x='112' y='211'/>
+      <part name='2' x='161' y='187'/>
+      <part name='3' x='271' y='151'/>
+      <part name='4' x='309' y='156'/>
+      <part name='5' x='372' y='230'/>
+      <part name='6' x='301' y='251'/>
+      <part name='7' x='240' y='263'/>
+      <part name='8' x='183' y='250'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_94.jpg'> 
+        <box top='0' left='0' width='503' height='503'> 
+      <part name='1' x='117' y='250'/>
+      <part name='2' x='230' y='208'/>
+      <part name='3' x='322' y='199'/>
+      <part name='4' x='404' y='222'/>
+      <part name='5' x='473' y='284'/>
+      <part name='6' x='391' y='308'/>
+      <part name='7' x='317' y='318'/>
+      <part name='8' x='232' y='299'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_95.jpg'> 
+        <box top='0' left='0' width='684' height='684'> 
+      <part name='1' x='184' y='372'/>
+      <part name='2' x='276' y='307'/>
+      <part name='3' x='413' y='261'/>
+      <part name='4' x='496' y='282'/>
+      <part name='5' x='601' y='365'/>
+      <part name='6' x='455' y='406'/>
+      <part name='7' x='400' y='417'/>
+      <part name='8' x='353' y='413'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_97.jpg'> 
+        <box top='0' left='0' width='886' height='886'> 
+      <part name='1' x='202' y='499'/>
+      <part name='2' x='352' y='380'/>
+      <part name='3' x='500' y='345'/>
+      <part name='4' x='621' y='383'/>
+      <part name='5' x='696' y='505'/>
+      <part name='6' x='607' y='543'/>
+      <part name='7' x='461' y='574'/>
+      <part name='8' x='387' y='564'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_98.jpg'> 
+        <box top='0' left='0' width='943' height='943'> 
+      <part name='1' x='266' y='517'/>
+      <part name='2' x='424' y='410'/>
+      <part name='3' x='568' y='383'/>
+      <part name='4' x='693' y='418'/>
+      <part name='5' x='802' y='557'/>
+      <part name='6' x='662' y='590'/>
+      <part name='7' x='569' y='598'/>
+      <part name='8' x='439' y='579'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_100.jpg'> 
+        <box top='0' left='0' width='876' height='876'> 
+      <part name='1' x='250' y='445'/>
+      <part name='2' x='374' y='338'/>
+      <part name='3' x='505' y='308'/>
+      <part name='4' x='627' y='354'/>
+      <part name='5' x='731' y='466'/>
+      <part name='6' x='631' y='500'/>
+      <part name='7' x='474' y='523'/>
+      <part name='8' x='365' y='502'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_101.jpg'> 
+        <box top='0' left='0' width='667' height='667'> 
+      <part name='1' x='156' y='340'/>
+      <part name='2' x='256' y='269'/>
+      <part name='3' x='392' y='226'/>
+      <part name='4' x='506' y='252'/>
+      <part name='5' x='625' y='379'/>
+      <part name='6' x='442' y='413'/>
+      <part name='7' x='387' y='450'/>
+      <part name='8' x='342' y='419'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_102.jpg'> 
+        <box top='0' left='0' width='682' height='682'> 
+      <part name='1' x='164' y='361'/>
+      <part name='2' x='232' y='329'/>
+      <part name='3' x='385' y='274'/>
+      <part name='4' x='486' y='295'/>
+      <part name='5' x='556' y='403'/>
+      <part name='6' x='412' y='428'/>
+      <part name='7' x='358' y='429'/>
+      <part name='8' x='309' y='425'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_103.jpg'> 
+        <box top='0' left='0' width='633' height='633'> 
+      <part name='1' x='161' y='334'/>
+      <part name='2' x='245' y='280'/>
+      <part name='3' x='362' y='250'/>
+      <part name='4' x='445' y='275'/>
+      <part name='5' x='525' y='366'/>
+      <part name='6' x='373' y='386'/>
+      <part name='7' x='346' y='421'/>
+      <part name='8' x='311' y='384'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_104.jpg'> 
+        <box top='0' left='0' width='656' height='656'> 
+      <part name='1' x='132' y='335'/>
+      <part name='2' x='232' y='284'/>
+      <part name='3' x='362' y='254'/>
+      <part name='4' x='472' y='278'/>
+      <part name='5' x='565' y='344'/>
+      <part name='6' x='412' y='386'/>
+      <part name='7' x='354' y='393'/>
+      <part name='8' x='311' y='393'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_105.jpg'> 
+        <box top='0' left='0' width='849' height='849'> 
+      <part name='1' x='177' y='505'/>
+      <part name='2' x='368' y='356'/>
+      <part name='3' x='490' y='323'/>
+      <part name='4' x='604' y='350'/>
+      <part name='5' x='717' y='479'/>
+      <part name='6' x='596' y='518'/>
+      <part name='7' x='488' y='549'/>
+      <part name='8' x='433' y='550'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_106.jpg'> 
+        <box top='0' left='0' width='563' height='563'> 
+      <part name='1' x='121' y='291'/>
+      <part name='2' x='227' y='203'/>
+      <part name='3' x='315' y='184'/>
+      <part name='4' x='399' y='223'/>
+      <part name='5' x='457' y='349'/>
+      <part name='6' x='345' y='362'/>
+      <part name='7' x='313' y='382'/>
+      <part name='8' x='283' y='364'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_107.jpg'> 
+        <box top='0' left='0' width='843' height='843'> 
+      <part name='1' x='235' y='449'/>
+      <part name='2' x='351' y='386'/>
+      <part name='3' x='502' y='353'/>
+      <part name='4' x='648' y='407'/>
+      <part name='5' x='721' y='452'/>
+      <part name='6' x='634' y='471'/>
+      <part name='7' x='500' y='487'/>
+      <part name='8' x='374' y='480'/>
+    </box>
+  </image>
+
+
+  <image file='../processed/right/right_108.jpg'> 
+        <box top='0' left='0' width='564' height='564'> 
+      <part name='1' x='136' y='315'/>
+      <part name='2' x='210' y='237'/>
+      <part name='3' x='303' y='205'/>
+      <part name='4' x='437' y='240'/>
+      <part name='5' x='477' y='327'/>
+      <part name='6' x='381' y='356'/>
+      <part name='7' x='327' y='364'/>
+      <part name='8' x='285' y='362'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_110.jpg'> 
+        <box top='0' left='0' width='849' height='849'> 
+      <part name='1' x='287' y='442'/>
+      <part name='2' x='370' y='382'/>
+      <part name='3' x='523' y='333'/>
+      <part name='4' x='664' y='367'/>
+      <part name='5' x='737' y='435'/>
+      <part name='6' x='633' y='471'/>
+      <part name='7' x='492' y='490'/>
+      <part name='8' x='404' y='478'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_111.jpg'> 
+        <box top='0' left='0' width='539' height='539'> 
+      <part name='1' x='112' y='280'/>
+      <part name='2' x='195' y='227'/>
+      <part name='3' x='293' y='205'/>
+      <part name='4' x='397' y='230'/>
+      <part name='5' x='441' y='283'/>
+      <part name='6' x='352' y='311'/>
+      <part name='7' x='286' y='324'/>
+      <part name='8' x='258' y='321'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_112.jpg'> 
+        <box top='0' left='0' width='619' height='619'> 
+      <part name='1' x='125' y='295'/>
+      <part name='2' x='218' y='258'/>
+      <part name='3' x='339' y='244'/>
+      <part name='4' x='438' y='263'/>
+      <part name='5' x='512' y='363'/>
+      <part name='6' x='400' y='376'/>
+      <part name='7' x='333' y='382'/>
+      <part name='8' x='271' y='377'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_113.jpg'> 
+        <box top='0' left='0' width='841' height='841'> 
+      <part name='1' x='217' y='438'/>
+      <part name='2' x='363' y='330'/>
+      <part name='3' x='540' y='292'/>
+      <part name='4' x='614' y='318'/>
+      <part name='5' x='719' y='512'/>
+      <part name='6' x='561' y='548'/>
+      <part name='7' x='504' y='558'/>
+      <part name='8' x='463' y='555'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_115.jpg'> 
+        <box top='0' left='0' width='731' height='731'> 
+      <part name='1' x='164' y='383'/>
+      <part name='2' x='283' y='300'/>
+      <part name='3' x='437' y='265'/>
+      <part name='4' x='575' y='318'/>
+      <part name='5' x='643' y='440'/>
+      <part name='6' x='471' y='462'/>
+      <part name='7' x='420' y='463'/>
+      <part name='8' x='378' y='459'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_116.jpg'> 
+        <box top='0' left='0' width='675' height='675'> 
+      <part name='1' x='165' y='407'/>
+      <part name='2' x='266' y='314'/>
+      <part name='3' x='456' y='234'/>
+      <part name='4' x='531' y='248'/>
+      <part name='5' x='639' y='314'/>
+      <part name='6' x='503' y='369'/>
+      <part name='7' x='393' y='408'/>
+      <part name='8' x='356' y='407'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_117.jpg'> 
+        <box top='0' left='0' width='839' height='839'> 
+      <part name='1' x='231' y='458'/>
+      <part name='2' x='341' y='388'/>
+      <part name='3' x='489' y='342'/>
+      <part name='4' x='621' y='378'/>
+      <part name='5' x='716' y='450'/>
+      <part name='6' x='598' y='469'/>
+      <part name='7' x='470' y='484'/>
+      <part name='8' x='387' y='481'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_118.jpg'> 
+        <box top='0' left='0' width='683' height='683'> 
+      <part name='1' x='148' y='359'/>
+      <part name='2' x='261' y='284'/>
+      <part name='3' x='391' y='250'/>
+      <part name='4' x='479' y='272'/>
+      <part name='5' x='596' y='392'/>
+      <part name='6' x='456' y='435'/>
+      <part name='7' x='381' y='444'/>
+      <part name='8' x='317' y='441'/>
+    </box>
+  </image>
+
+  <image file='../processed/right/right_120.jpg'> 
+    <box top='0' left='0' width='668' height='668'> 
+      <part name='1' x='174' y='365'/>
+      <part name='2' x='285' y='283'/>
+      <part name='3' x='441' y='221'/>
+      <part name='4' x='573' y='256'/>
+      <part name='5' x='651' y='339'/>
+      <part name='6' x='540' y='373'/>
+      <part name='7' x='421' y='399'/>
+      <part name='8' x='365' y='395'/>
+    </box>
+  </image>
+
+</images>
+</dataset>
