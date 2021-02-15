@@ -1,7 +1,6 @@
 import cv2
 from imutils import face_utils
 import imutils
-
 import dlib
 
 from os import listdir
@@ -9,6 +8,7 @@ from os import listdir
 import math
 import numpy as np
 import pandas as pd
+from scipy import optimize
 
 
 # Define text info
@@ -117,100 +117,100 @@ def detect_eye(image, shape):
 #     return result[0], result[1], output
 
 
-# def find_best_circle(x, y):
-#     """
-#     find the best circle given the list of points
-#     """
-#     method_2 = "leastsq"
-#
-#     x_m, y_m = np.mean(x), np.mean(y)
-#     def calc_R(xc, yc):
-#         """
-#         calculate the distance of each 2D points from the center (xc, yc)
-#         """
-#         return ((x-xc)**2 + (y-yc)**2) ** (1/2)
-#
-#     def f_2(c):
-#         """
-#         calculate the algebraic distance between the data points and
-#         the mean circle centered at c=(xc, yc)
-#         """
-#         Ri = calc_R(*c)
-#         return Ri - Ri.mean()
-#
-#     center_estimate = x_m, y_m
-#     center_2, ier = optimize.leastsq(f_2, center_estimate)
-#
-#     xc_2, yc_2 = center_2
-#     Ri_2       = calc_R(*center_2)
-#     R_2        = Ri_2.mean()
-#     residu_2   = sum((Ri_2 - R_2)**2)
-#
-#     return xc_2, yc_2, R_2
-#
-# def measure_single_image(image, predictor):
-#     """
-#     input:
-#         - image          : the image
-#         - predictor      : predictor object
-#     return:
-#         - output         : Output image
-#         - (xc1, y_lower) : Lower intercection
-#         - (xc1, yc1)     : Circle center
-#         - (xc1, y_upper) : Upper intercection
-#     """
-#
-#     # Check if image file exists
-#     # if filepath not in listdir(tesing_img_path):
-#     #     print('[ERROR] File not found! Current file:', tesing_img_path + filepath)
-#     #     return None
-#     # print(tesing_img_path + filepath)
-#
-#     # Call landmark predictor
-#     output, shape = predict_landmarks(image, predictor)
-#
-#     # Find the best fit circle of the iris
-#     circle_point_x = shape[(1, 3, 5, 7), 0]
-#     circle_point_y = shape[(1, 3, 5, 7), 1]
-#     xc1, yc1, r1 = find_best_circle(circle_point_x, circle_point_y)
-#     xc1, yc1, r1 = int(xc1), int(yc1), int(r1)
-#     cv2.circle(output, (xc1, yc1), r1, (0, 255, 255), 1)
-#
-#     # Find the best fir curve of the upper eyelid
-#     upper_point_x = shape[(1, 2, 3), 0]
-#     upper_point_y = shape[(1, 2, 3), 1]
-#     xc2, yc2, r2 = find_best_circle(upper_point_x, upper_point_y)
-#     xc2, yc2, r2 = int(xc2), int(yc2), int(r2)
-#     y_upper = yc2 - (r2 ** 2 - (xc1 - xc2) ** 2) ** (1 / 2)
-#     if y_upper < 0:
-#         y_upper = 0
-#     # elif y_upper > yc1:
-#     #     y_upper = yc1
-#     else:
-#         y_upper = int(y_upper)
-#     upper_in_mm = round(11.65 * (yc1 - y_upper) / (r1 * 2), 2)
-#     cv2.putText(output, str(upper_in_mm), (xc1 + 20, y_upper - 20), font, fontScale, fontColor, lineType)
-#     cv2.arrowedLine(output, (xc1, yc1), (xc1, y_upper), (0, 255, 255), 2)
-#
-#     # Find the best fir curve of the lower eyelid
-#     lower_point_x = shape[(4, 6, 0), 0]
-#     lower_point_y = shape[(4, 6, 0), 1]
-#     xc3, yc3, r3 = find_best_circle(lower_point_x, lower_point_y)
-#     xc3, yc3, r3 = int(xc3), int(yc3), int(r3)
-#     y_lower = yc3 + (r3 ** 2 - (xc1 - xc3) ** 2) ** (1 / 2)
-#     if y_lower <= yc1:
-#         y_lower = yc1
-#     elif y_lower >= output.shape[0]:
-#         y_lower = yc1 + r1
-#     else:
-#         y_lower = int(y_lower)
-#     lower_in_mm = round(11.65 * (y_lower - yc1) / (r1 * 2), 2)
-#     cv2.putText(output, str(lower_in_mm), (xc1 + 20, y_lower + 20), font, fontScale, fontColor, lineType)
-#     cv2.arrowedLine(output, (xc1, yc1), (xc1, y_lower), (0, 255, 255), 2)
-#
-#     # Adding a point at the center
-#     cv2.circle(output, (xc1, yc1), 2, (0, 0, 255), 2)
-#     # plt.imshow(output)
-#     # plt.title(filepath)
-#     # plt.show()
-#     return output, (xc1, y_lower), (xc1, yc1), (xc1, y_upper), r1
+def find_best_circle(x, y):
+    """
+    find the best circle given the list of points
+    """
+    method_2 = "leastsq"
+
+    x_m, y_m = np.mean(x), np.mean(y)
+    def calc_R(xc, yc):
+        """
+        calculate the distance of each 2D points from the center (xc, yc)
+        """
+        return ((x-xc)**2 + (y-yc)**2) ** (1/2)
+
+    def f_2(c):
+        """
+        calculate the algebraic distance between the data points and
+        the mean circle centered at c=(xc, yc)
+        """
+        Ri = calc_R(*c)
+        return Ri - Ri.mean()
+
+    center_estimate = x_m, y_m
+    center_2, ier = optimize.leastsq(f_2, center_estimate)
+
+    xc_2, yc_2 = center_2
+    Ri_2       = calc_R(*center_2)
+    R_2        = Ri_2.mean()
+    residu_2   = sum((Ri_2 - R_2)**2)
+
+    return xc_2, yc_2, R_2
+
+def measure_single_image(image, predictor):
+    """
+    input:
+        - image          : the image
+        - predictor      : predictor object
+    return:
+        - output         : Output image
+        - (xc1, y_lower) : Lower intercection
+        - (xc1, yc1)     : Circle center
+        - (xc1, y_upper) : Upper intercection
+    """
+
+    # Check if image file exists
+    # if filepath not in listdir(tesing_img_path):
+    #     print('[ERROR] File not found! Current file:', tesing_img_path + filepath)
+    #     return None
+    # print(tesing_img_path + filepath)
+
+    # Call landmark predictor
+    output, shape = predict_landmarks(image, predictor)
+
+    # Find the best fit circle of the iris
+    circle_point_x = shape[(1, 3, 5, 7), 0]
+    circle_point_y = shape[(1, 3, 5, 7), 1]
+    xc1, yc1, r1 = find_best_circle(circle_point_x, circle_point_y)
+    xc1, yc1, r1 = int(xc1), int(yc1), int(r1)
+    cv2.circle(output, (xc1, yc1), r1, (0, 255, 255), 1)
+
+    # Find the best fir curve of the upper eyelid
+    upper_point_x = shape[(1, 2, 3), 0]
+    upper_point_y = shape[(1, 2, 3), 1]
+    xc2, yc2, r2 = find_best_circle(upper_point_x, upper_point_y)
+    xc2, yc2, r2 = int(xc2), int(yc2), int(r2)
+    y_upper = yc2 - (r2 ** 2 - (xc1 - xc2) ** 2) ** (1 / 2)
+    if y_upper < 0:
+        y_upper = 0
+    # elif y_upper > yc1:
+    #     y_upper = yc1
+    else:
+        y_upper = int(y_upper)
+    upper_in_mm = round(11.65 * (yc1 - y_upper) / (r1 * 2), 2)
+    cv2.putText(output, str(upper_in_mm), (xc1 + 20, y_upper - 20), font, fontScale, fontColor, lineType)
+    cv2.arrowedLine(output, (xc1, yc1), (xc1, y_upper), (0, 255, 255), 2)
+
+    # Find the best fir curve of the lower eyelid
+    lower_point_x = shape[(4, 6, 0), 0]
+    lower_point_y = shape[(4, 6, 0), 1]
+    xc3, yc3, r3 = find_best_circle(lower_point_x, lower_point_y)
+    xc3, yc3, r3 = int(xc3), int(yc3), int(r3)
+    y_lower = yc3 + (r3 ** 2 - (xc1 - xc3) ** 2) ** (1 / 2)
+    if y_lower <= yc1:
+        y_lower = yc1
+    elif y_lower >= output.shape[0]:
+        y_lower = yc1 + r1
+    else:
+        y_lower = int(y_lower)
+    lower_in_mm = round(11.65 * (y_lower - yc1) / (r1 * 2), 2)
+    cv2.putText(output, str(lower_in_mm), (xc1 + 20, y_lower + 20), font, fontScale, fontColor, lineType)
+    cv2.arrowedLine(output, (xc1, yc1), (xc1, y_lower), (0, 255, 255), 2)
+
+    # Adding a point at the center
+    cv2.circle(output, (xc1, yc1), 2, (0, 0, 255), 2)
+    # plt.imshow(output)
+    # plt.title(filepath)
+    # plt.show()
+    return output, (xc1, y_lower), (xc1, yc1), (xc1, y_upper), r1

@@ -1,26 +1,47 @@
-import cv2 as cv
 import cv2
-from os import listdir
-import math
-import numpy as np
-from matplotlib.pyplot import imshow
-from matplotlib import pyplot as plt
-import pandas as pd
-from scipy import optimize
-from tqdm import tqdm
-import seaborn as sns
 import dlib
 
+import math
+import numpy as np
+import pandas as pd
+from scipy import optimize
+import seaborn as sns
+# from matplotlib.pyplot import imshow
+# from matplotlib import pyplot as plt
+
 import os
+from tqdm import tqdm
 
 from utils import *
 
 
 class Trainer():
-    def __init__(self, trainer_config):
+    def __init__(self, config):
 
-        self.data_identifier = trainer_config['data_identifier']
-        self.curr_dir = trainer_config['curr_dir']
+        self.data_identifier = config['data_identifier']
+        self.compare_with_manual_measurement = config['compare_with_manual_measurement']
+
+        if config['curr_dir'] == "":
+            self.curr_dir = './'
+        else:
+            self.curr_dir = config['curr_dir']
+
+        if config['processed_eye_dir'] == "":
+            self.processed_eye_dir = self.curr_dir + 'data/processed/' + self.data_identifier
+        else:
+            self.processed_eye_dir = self.curr_dir + 'data/processed/' + config['processed_eye_dir']
+        os.system('mkdir -p ' + self.processed_eye_dir)
+
+        if config['final_output_dir'] == "":
+            self.final_output_dir = self.curr_dir + 'data/final_output/' + self.data_identifier
+        else:
+            self.final_output_dir = self.curr_dir + 'data/final_output/' + config['final_output_dir']
+        os.system('mkdir -p ' + self.final_output_dir)
+
+        if config['mrd_predictor_dir'] == "":
+            self.mrd_predictor_dir = self.curr_dir + '/models'
+        else:
+            self.mrd_predictor_dir = self.curr_dir + '/models/' + config['mrd_predictor_dir']
 
     def process_full_face_img(self):
         print('====================================')
@@ -28,12 +49,12 @@ class Trainer():
         raw_data_dir = self.curr_dir + 'data/raw/full_img_' + self.data_identifier + '/'
         print('  => raw_data_dir:', raw_data_dir)
 
-        eye_data_dir = self.curr_dir + 'data/processed/' + self.data_identifier + '/cropped/'
-        left_data_dir = self.curr_dir + 'data/processed/' + self.data_identifier + '/left/'
-        right_data_dir = self.curr_dir + 'data/processed/' + self.data_identifier + '/right/'
-        os.system('mkdir '+ eye_data_dir)
-        os.system('mkdir '+ left_data_dir)
-        os.system('mkdir '+ right_data_dir)
+        eye_data_dir = self.processed_eye_dir + '/cropped/'
+        left_data_dir = self.processed_eye_dir + '/left/'
+        right_data_dir = self.processed_eye_dir + '/right/'
+        os.system('mkdir -p '+ eye_data_dir)
+        os.system('mkdir -p '+ left_data_dir)
+        os.system('mkdir -p '+ right_data_dir)
 
         default_predictor_path = self.curr_dir + 'data/resources/shape_predictor_68_face_landmarks.dat'
         default_predictor = dlib.shape_predictor(default_predictor_path)
@@ -41,7 +62,7 @@ class Trainer():
         img_info_lst = []
         error_img_lst = []
         counter = 0
-        for fp in tqdm(listdir(raw_data_dir)):
+        for fp in tqdm(os.listdir(raw_data_dir)):
             if '.png' not in fp:
                 continue
 
@@ -54,7 +75,7 @@ class Trainer():
             tmp_dic['img_idx'] = counter
 
 
-            left_eye, right_eye = detect_eye(image, shape)
+            right_eye, left_eye = detect_eye(image, shape)
             try:
                 cv2.imwrite(left_data_dir + 'left_' + str(counter) + '.png', left_eye)
                 cv2.imwrite(right_data_dir + 'right_' + str(counter) + '.png', right_eye)
@@ -96,5 +117,30 @@ class Trainer():
             img_info_lst.append(tmp_dic)
         return pd.DataFrame(img_info_lst)
 
-    # def predict_eyelid_position(self):
-    #
+    def predict_eyelid_position(self, img_info_df):
+        left_data_dir = self.processed_eye_dir + '/left/'
+        right_data_dir = self.processed_eye_dir + '/right/'
+
+        os.system('mkdir -p ' + self.final_output_dir + '/left')
+        os.system('mkdir -p ' + self.final_output_dir + '/right')
+
+        measurement_results = []
+        for img_idx in tqdm(img_info_df.img_idx.values):
+            tmp_dict = {}
+            if self.compare_with_manual_measurement:
+                # load manual measurements
+                pass
+
+            # left eye
+            left_predictor = dlib.shape_predictor(self.mrd_predictor_dir + '/left_eye_predictor.dat')
+            left_img = cv2.imread(left_data_dir + 'left_' + str(img_idx) + '.png')
+            output, (xc1, y_lower), (xc1, yc1), (xc1, y_upper), r1 = \
+                measure_single_image(left_img, left_predictor)
+            cv2.imwrite(self.final_output_dir + '/left/left_' + str(img_idx) + '.jpg', output)
+
+            # left eye
+            right_predictor = dlib.shape_predictor(self.mrd_predictor_dir + '/right_eye_predictor.dat')
+            right_img = cv2.imread(right_data_dir + 'right_' + str(img_idx) + '.png')
+            output, (xc1, y_lower), (xc1, yc1), (xc1, y_upper), r1 = \
+                measure_single_image(right_img, right_predictor)
+            cv2.imwrite(self.final_output_dir + '/right/right_' + str(img_idx) + '.jpg', output)
