@@ -1,11 +1,13 @@
-eyelid_detection
+# Eyelid Detection
 ==============================
 
+## Project Description
+This project dedicates to automatically measure key facial measurements based on patients facial images.
 
-Project Organization
+
+## Projcet Orgnization
 ------------
 
-    ├──
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
     │   ├── labels         <- Data labels, including the mapping relation from old file names to numberred file names, model xml files, etc.
@@ -13,17 +15,15 @@ Project Organization
     │   ├── processed      <- The final, canonical data sets for modeling.
     │   │    ├── left
     │   │    └── right
+    │   ├── resources 		<- Resources from existing works to aid our code.
+    │   │    └── haarcascade    <- Pretrained eye detection model from OpenCV
     │   └── raw            <- The original, immutable data dump.
     │        ├── left
     │        └── right
     │
     ├── notebooks          <- Jupyter notebooks.
-    │    
-    ├── outside_sources    <- Outside sources.
-    │   └── haarcascade    <- Pretrained eye detection model from OpenCV
     │
-    │
-    ├── scripts            <- Source code for use in this project.
+    ├── resouces            <- Source code for use in this project.
     │   ├── __init__.py    <- Makes src a Python module
     │   │
     │   ├── data           <- Scripts to download or generate data
@@ -43,7 +43,6 @@ Project Organization
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
-
 
 
 -------
