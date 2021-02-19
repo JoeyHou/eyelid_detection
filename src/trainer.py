@@ -18,8 +18,9 @@ from utils import *
 class Trainer():
     def __init__(self, config):
 
-        self.data_identifier = config['data_identifier']
+        self.data_sources = config['data_sources']
         self.compare_with_manual_measurement = config['compare_with_manual_measurement']
+        self.model_name = config['model_name']
 
         if config['curr_dir'] == "":
             self.curr_dir = './'
@@ -27,13 +28,13 @@ class Trainer():
             self.curr_dir = config['curr_dir']
 
         if config['processed_eye_dir'] == "":
-            self.processed_eye_dir = self.curr_dir + 'data/processed/' + self.data_identifier
+            self.processed_eye_dir = self.curr_dir + 'data/processed/' + self.model_name
         else:
             self.processed_eye_dir = self.curr_dir + 'data/processed/' + config['processed_eye_dir']
         os.system('mkdir -p ' + self.processed_eye_dir)
 
         if config['final_output_dir'] == "":
-            self.final_output_dir = self.curr_dir + 'data/final_output/' + self.data_identifier
+            self.final_output_dir = self.curr_dir + 'data/final_output/' + self.model_name
         else:
             self.final_output_dir = self.curr_dir + 'data/final_output/' + config['final_output_dir']
         os.system('mkdir -p ' + self.final_output_dir)
@@ -46,7 +47,15 @@ class Trainer():
     def process_full_face_img(self):
         print('====================================')
         print(' => Processing full face images....')
-        raw_data_dir = self.curr_dir + 'data/raw/full_img_' + self.data_identifier + '/'
+        all_meta_data = []
+        for data_source in self.data_sources:
+            tmp_df = self.handle_single_data_source(data_source)
+            tmp_df['data_source'] = data_source
+            all_meta_data.append(tmp_df)
+        return pd.concat(all_meta_data).reset_index(drop = True)
+
+    def handle_single_data_source(self, data_source):
+        raw_data_dir = self.curr_dir + 'data/raw/' + data_source + '/'
         print('  => raw_data_dir:', raw_data_dir)
 
         eye_data_dir = self.processed_eye_dir + '/cropped/'

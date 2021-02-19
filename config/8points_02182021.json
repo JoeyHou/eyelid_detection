@@ -1,0 +1,10 @@
+{
+    "model_name": "8points_02182021",
+    "num_points": 8,
+    "data_sources": ["02182021"],
+    "curr_dir": "",
+    "processed_eye_dir": "",
+    "final_output_dir": "",
+    "compare_with_manual_measurement": false,
+    "mrd_predictor_dir": ""
+}

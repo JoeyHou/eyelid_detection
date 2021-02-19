@@ -1,6 +1,7 @@
 {
+    "model_name": "8points_02142021",
     "num_points": 8,
-    "data_identifier": "02142021",
+    "data_sources": ["02142021"],
     "curr_dir": "",
     "processed_eye_dir": "",
     "final_output_dir": "",
